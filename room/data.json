@@ -1,0 +1,198 @@
+[
+    {
+        "salle": "Salle",
+        "nom": "Nom",
+        "desc": "Description",
+        "photo": "Photo",
+        "audio": "Audio"
+    },
+    {
+        "salle": "G",
+        "nom": "Graphite",
+        "desc": "Le graphite comme le diamant est compos\u00e9 exclusivement de carbone. Il est traditionnellement utilis\u00e9 pour faire des mines de crayons. Le fusain et les craies noires \u00e9taient les outils principaux pour l'artiste jusqu'au XVIlle si\u00e8cle. C'est avec eux qu'il r\u00e9alisait les dessins pr\u00e9paratoires avant de peindre. C'est au XVle si\u00e8cle que quelques peintres ont commenc\u00e9 \u00e0 s'int\u00e9resser au graphite. Il permet en effet de r\u00e9aliser des esquisses beaucoup plus faciles \u00e0 faire dispara\u00eetre sous la peinture que craies noires ou fusains.",
+        "photo": "6199_08b_Tourmaline.jpg",
+        "audio": "audio.mp3"
+    },
+    {
+        "salle": "G",
+        "nom": "Or natif",
+        "desc": "L'or servait principalement \u00e0 r\u00e9aliser des fonds mais aussi \u00eatre utilis\u00e9 dans certains d\u00e9tails comme des \u00e9toffes ou des ornementations. Pour appliquer une dorure \u00e0 la feuille on d\u00e9posait d'abord une couche d'argile rouge m\u00e9lang\u00e9e \u00e0 un \u0153uf que l'on laissait s\u00e9cher, avant d'\u00eatre frott\u00e9e avec une dent de chien puis essuy\u00e9e avec du lin. Une autre fa\u00e7on de r\u00e9aliser une dorure est de broyer de l'or natif ensuite m\u00e9lang\u00e9 dans de l'huile. On peut aussi faire une dorure a tempera, en broyant l'or dans de l'eau pour ensuite le m\u00e9langer \u00e0 de l'\u0153uf et de la colle.",
+        "photo": "4758_06_Tourmaline-elbaite.jpg",
+        "audio": "audio.mp4"
+    },
+    {
+        "salle": "G",
+        "nom": "Soufre",
+        "desc": "Le soufre entre dans la composition du vermillon. En m\u00e9langeant du mercure et du soufre on fabrique un sulfure de mercure qui existe naturellement sous le nom de cinabre. L\u2019emploi du vermillon, pigment de synth\u00e8se, est attest\u00e9 en Gr\u00e8ce, en Chine, \u00e0 Rome dans l\u2019antiquit\u00e9. Le secret de fabrication sera perdu apr\u00e8s l\u2019effondrement de l\u2019empire romain puis red\u00e9couvert et import\u00e9 en Occident par les arabes.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp5"
+    },
+    {
+        "salle": "H",
+        "nom": "Chalcopyrite",
+        "desc": "La chalcopyrite est un sulfure de fer et de cuivre. C'est justement en \u00e9tudiant le cuivre que Carl Wilhem Scheele d\u00e9couvre ce nouveau pigment en m\u00e9langeant le cuivre issu de la chalcopyrite et l'arsenic fourni par l'orpiment. Il produit ainsi un sel de cuivre et d'arsenic, l'hydrog\u00e9noars\u00e9nite qui sera utilis\u00e9 en peinture mais aussi pour teinter papiers peints et v\u00eatements. M\u00eame si on sait que Paul C\u00e9zanne utilisait encore ce pigment, le vert de Scheele sera remplac\u00e9 progressivement \u00e0 partir du XIXe si\u00e8cle par le vert \u00e9meraude non moins toxique que le pr\u00e9c\u00e9dent.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp6"
+    },
+    {
+        "salle": "H",
+        "nom": "Sphal\u00e8rite",
+        "desc": "Au XIXe si\u00e8cle deux jaunes sont en concurrence, le jaune de baryum obtenu \u00e0 partir de la barytine et le jaune de zinc dont le minerai principal est la sphal\u00e9rite. Ils vont concurrencer les nombreux jaunes contenant du plomb (reconnus toxiques), qui \u00e9mergent \u00e0 la m\u00eame \u00e9poque, Georges Seurat l'utilise dans son c\u00e9l\u00e8bre \u00ab dimanche apr\u00e8s-midi sur l'\u00eele de la Grand Jatte \u00bb. Il ne savait pas que le jaune de zinc ou le chromate de zinc, qu'il utilisait dans les pelouses vert p\u00e2le, \u00e9tait tr\u00e8s instable et brunissait rapidement.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp7"
+    },
+    {
+        "salle": "H",
+        "nom": "Gal\u00e8ne",
+        "desc": "La gal\u00e8ne est un sulfure de plomb et est surtout utilis\u00e9e pour l\u2019extraction de l'\u00e9l\u00e9ment plomb pour le blanc de c\u00e9ruse lorsqu'elle carbonatait au moyen-\u00e2ge. La gal\u00e8ne entre aussi au XIlle si\u00e8cle pour la fabrication du jaune de plomb \u00e9tain. Il sera utilis\u00e9 jusqu'au XVIlle si\u00e8cle. Pour l'obtenir il faut aussi de la cassit\u00e9rite (oxyde d'\u00e9tain) et du quartz (source de silice). Ce jaune est en effet d'un oxyde de plomb d'\u00e9tain et de silicium. Leonard de Vinci a utilis\u00e9 ce pigment pour peindre le tableau de Mona Lisa.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp8"
+    },
+    {
+        "salle": "H",
+        "nom": "Stibnite",
+        "desc": "En 1740 est invent\u00e9 l'antimoniure de plomb qu'on appelle jaune de Naples il est fait \u00e0 partir d'un sulfure d'antimoine, la stibnite. Ce min\u00e9ral assez rare \u00e9tait pourtant connu depuis longtemps en cosm\u00e9tique car entrant dans la composition Kh\u00f4l. Pour faire ce jaune de Naples on avait aussi besoin d'une source de plomb : la gal\u00e8ne. En faisant varier les proportions entre le sulfure d'antimoine et le plomb, ce jaune pouvait se rapprocher d'un orange. Du fait de la pr\u00e9sence de plomb et d'antimoine on imagine ais\u00e9ment la toxicit\u00e9 pour les artistes du jaune de Naples.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp9"
+    },
+    {
+        "salle": "H",
+        "nom": "Cinabre",
+        "desc": "Le vermillon est obtenu \u00e0 partir du cinabre, un sulfure de mercure. Le pigment est fabriqu\u00e9 en \u00e9crasant ce min\u00e9ral dans un mortier, en le lavant ensuite pour enlever les impuret\u00e9s et en le faisant chauffer. Ce pigment a \u00e9t\u00e9 utilis\u00e9 d\u00e8s l'Antiquit\u00e9 dans des peintures murales. Dans la maison du bicentenaire \u00e0 Herculanum, les peintres romains se servirent de vermillon \u00e0 base de cinabre. On le retrouve au Moyen-\u00e2ge pour les enluminures. Plus tard Titien l'utilise pour son \u0153uvre Bacchus et Arianne.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp10"
+    },
+    {
+        "salle": "H",
+        "nom": "Cobaltite",
+        "desc": "C'est en observant des c\u00e9ramiques bleues de la manufacture de S\u00e8vres que Louis-Jacques Th\u00e9nard eu l'id\u00e9e de cr\u00e9er un pigment qui sera nomm\u00e9 bleu Th\u00e9nard ou bleu de cobalt. Ce bleu a pour avantage d'\u00eatre tr\u00e8s stable, lumineux et adapt\u00e9 \u00e0 l'aquarelle. Les lettres de Van Gogh \u00e0 son fr\u00e8re atteste de l'utilisation du bleu de cobalt, notamment dans son \u00ab Paysage avec couple marchand et croissant de lune \u00bb. Monhet et Renoir ont \u00e9t\u00e9 aussi des grands consommateurs de ce pigment.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp11"
+    },
+    {
+        "salle": "I",
+        "nom": "Orpiment",
+        "desc": "L'Orpiment, \u00ab or pigment \u00bb servait pour la fabrication de pigment jaune. Il est surtout utilis\u00e9 au Moyen Age dans les enluminures. L'orpiment \u00e9tant un sulfure d'arsenic il est aussi tr\u00e8s dangereux pour la sant\u00e9. Une des victimes c\u00e9l\u00e8bres de ce pigment ne serait autre que Rosso Fiorentino qui apr\u00e8s avoir accus\u00e9 un homme \u00e0 tort, honteux il se serait donn\u00e9 la mort en ing\u00e9rant de l'orpiment ! Il \u00e9tait un peintre florentin, admirateur de Michel-Ange et s\u00e9journa en France \u00e0 la cour de Fran\u00e7ois ler dans les ann\u00e9es 1530.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp12"
+    },
+    {
+        "salle": "I",
+        "nom": "Chromite",
+        "desc": "Le pigment jaune le plus utilis\u00e9 \u00e0 la fin du XIXe si\u00e8cle fut surtout le jaune de chrome. Aujourd'hui ce jaune pose de s\u00e9rieux probl\u00e8mes aux restaurateurs puisque c'est celui qu'employa Van Gogh pour sa s\u00e9rie : Les tournesols. Sous l'action des UV, ce jaune se d\u00e9grade. Avec le temps les tournesols deviennent alors marrons ! Il est aussi suppos\u00e9 que l'\u00e9tat de sant\u00e9 physique et mental Van Gogh se serait encore plus d\u00e9grad\u00e9 en ing\u00e9rant du jaune de chrome.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp13"
+    },
+    {
+        "salle": "I",
+        "nom": "Magn\u00e9tite",
+        "desc": "Au d\u00e9but du XVIlle si\u00e8cle Heinrich Diesbach et Johann Conrad Dippel veulent pr\u00e9parer un colorant rouge mais ils obtiennent accidentellement une nouvelle couleur bleue Ce bleu dit de Prusse, fut obtenu par l'action du sulfate de fer (II), (FeSO4) sur un carbonate de potassium (K2CO3) qui contenait un cyanure jaune. C'est un des premiers pigments artificiels obtenus. La source de fer \u00e9tait initialement du sang, c'est aujourd'hui un minerai de fer comme la magn\u00e9tite, un oxyde fer.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp14"
+    },
+    {
+        "salle": "I",
+        "nom": "Quartz",
+        "desc": "La pr\u00e9paration du bleu/vert \u00e9gyptien resta un myst\u00e8re pendant des si\u00e8cles. Il faut attendre le XXe si\u00e8cle pour comprendre la fabrication du premier pigment synth\u00e9tique. Il faut 70% de quartz (SiO2), 20 % de malachite (carbonate de cuivre), 10% de calcite (carbonate de calcium) Et 1% de natron (carbonate de sodium) Le m\u00e9lange est r\u00e9duit en poudre. On ajoute de l'eau pour faire une p\u00e2te qui est s\u00e9ch\u00e9e puis port\u00e9e \u00e0 une temp\u00e9rature comprise entre 870 et 1000\u00b0C. Les cristaux obtenus sont de la cuproriva\u00efte. La couleur bleu ou vert d\u00e9pend des proportions des constituants et de la temp\u00e9rature de cuisson.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp15"
+    },
+    {
+        "salle": "I",
+        "nom": "H\u00e9matite",
+        "desc": "Pour obtenir un pigment rouge il faut un minerai de fer contenant du Fe3+. L'h\u00e9matite peut alors \u00eatre utilis\u00e9e. C'est un oxyde de fer, que l'on retrouve dans la peinture pari\u00e9tale au pal\u00e9olithique. Pour servir de pigment, l'h\u00e9matite doit \u00eatre broy\u00e9e, ainsi plus fine, sa couleur rouge apparait. Les pigments rouges des grottes Chauvet sont sans doute faits \u00e0 partir d'h\u00e9matite car les analyses attestent de l'emploi d'un oxyde de fer. 30 000 ans avant notre \u00e8re, les hommes qui ont r\u00e9alis\u00e9 le bestiaire impressionnant de ces grottes utilis\u00e8rent \u00e0 la fois leurs mains pour d\u00e9poser la couleur. Mais aussi la pulv\u00e9riser en la soufflant sur les parois. C'est ainsi qu'ont \u00e9t\u00e9 faites les peintures de mains en n\u00e9gatif.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp16"
+    },
+    {
+        "salle": "K",
+        "nom": "Rutile",
+        "desc": "Le blanc de titane, lui \u00e9tait fabriqu\u00e9 \u00e0 partir de rutile et d'anatase, des min\u00e9raux relativement rares. Ce pigment est sans doute l'un des plus lumineux de la palette d'un peintre au d\u00e9but du XXe si\u00e8cle. Son emploi va se g\u00e9n\u00e9raliser jusqu'\u00e0 nos jours. Il garde en effet toute son opacit\u00e9 avec la totalit\u00e9 des liants y compris dans les peintures acryliques. N\u00e9anmoins il pr\u00e9sente comme d\u00e9savantage d'induire dans certains cas une r\u00e9action avec le liant. La peinture peut alors jaunir, s'effriter et craqueler.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp17"
+    },
+    {
+        "salle": "K",
+        "nom": "Goethite",
+        "desc": "Elle est employ\u00e9e depuis des mill\u00e9naires, d\u00e8s le pal\u00e9olithique pour peindre les grottes et se retrouve par la suite dans la peinture murale antique. En le broyant on obtient des nuances jaune et orange. Sa couleur passe de jaune \u00e0 rouge puis violet lorsque chauff\u00e9 \u00e0 tr\u00e8s haute temp\u00e9rature. En \u00c9gypte, dans la tr\u00e8s c\u00e9l\u00e8bre tombe de Toutankhamon, le pigment utilis\u00e9 pour peindre les fonds jaunes/ocres, \u00e9tait \u00e0 base de goethite. Ce min\u00e9ral a \u00e9t\u00e9 nomm\u00e9 en hommage \u00e0 Goethe qui fut, on le sait moins un brillant min\u00e9ralogiste.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp18"
+    },
+    {
+        "salle": "K",
+        "nom": "Pyrolusite",
+        "desc": "Les oxydes de mangan\u00e8se sont nombreux : cryptom\u00e9lane, manganite, hollandite, psilom\u00e9lane, pyrochro\u00efte. Tous permettent, un fois broy\u00e9s, d'obtenir un pigment noir. Les r\u00e9sultats d'analyses par fluorescence X d'une douzaine de figures pari\u00e9tales de la grotte de Rouffignac a montr\u00e9 une pr\u00e9sence syst\u00e9matique de mangan\u00e8se sur les traits de dessin confirmant ainsi l'emploi de ces min\u00e9raux en m\u00eame temps que le charbon de bois ou l'os calcin\u00e9.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp19"
+    },
+    {
+        "salle": "K",
+        "nom": "Calcite",
+        "desc": "La calcite est le composant min\u00e9ralogique du calcaire, de la craie. Ces roches faciles \u00e0 broyer, \u00e9taient utilis\u00e9es en m\u00e9lange avec le pl\u00e2tre comme pigments blancs ou pout \u00e9claircir les teintes soutenues. Son emploi en Occident va du Moyen-\u00e2ge \u00e0 nos jours avec une forte consommation \u00e0 la Renaissance. En peinture au chevalet, on l'applique lors de la mise en place de couches pr\u00e9paratoires. Les peintres ne peignent pas directement sur la toile ou les panneaux de bois. Ces couches permettent d'unifier le support et d'assurer la bonne adh\u00e9rence des couleurs.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp20"
+    },
+    {
+        "salle": "L",
+        "nom": "Malachite",
+        "desc": "La malachite, carbonate de cuivre, est employ\u00e9e depuis l'Egypte ancienne en guise de pigment vert. On la retrouve par exemple dans l'\u0153uvre L'agonie dans le jardin de Giovanni Bellini. Ce qu'il y a de surprenant c'est que la malachite se retrouve ici comme pigment de la cape marron de Saint Jean ! Cette modification de couleur est li\u00e9e \u00e0 la pr\u00e9sence de cuivre qui a r\u00e9agi avec le liant et fait dispara\u00eetre le vert voulu par le peintre.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp21"
+    },
+    {
+        "salle": "L",
+        "nom": "C\u00e9rusite",
+        "desc": "Le blanc de plomb est un blanc tr\u00e8s couvrant, qui est connu depuis l\u2019Antiquit\u00e9. Il fut intens\u00e9ment produit \u00e0 la fin du XIXe si\u00e8cle en premier lieu pour ses propri\u00e9t\u00e9s antifongiques. Avant d'\u00eatre destin\u00e9 \u00e0 la r\u00e9alisation d'\u0153uvre d'art, la peinture de c\u00e9ruse se retrouvait sur les coques de bateaux ou les portes et volets des b\u00e2timents. Le blanc de plomb \u00e9tait aussi utilis\u00e9 pour cr\u00e9er des couleurs plut\u00f4t pastel. Sa toxicit\u00e9 importante est pourtant connue depuis l'\u00e9poque m\u00e9di\u00e9vale. Cet inconv\u00e9nient ne deviendra un obstacle \u00e0 son utilisation que dans la seconde partie du XXe si\u00e8cle.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp22"
+    },
+    {
+        "salle": "L",
+        "nom": "Azurite",
+        "desc": "L'azurite (carbonate de cuivre) ne doit pas \u00eatre confondue avec la lazurite (silicate) beaucoup plus rare et pr\u00e9cieux. Ce min\u00e9ral pr\u00e9sente une couleur moins stable dans le temps, \u00e9voluant vers le vert (transformation en malachite). Il a cependant \u00e9t\u00e9 beaucoup employ\u00e9 au moyen-\u00e2ge et \u00e0 la renaissance. Dans les \u0153uvres de Fra Angelico, l'azurite sert a colorer les plafonds et les ciels, la lazurite n'\u00e9tant employ\u00e9e que pour la robe mariale. Avec l'arriv\u00e9e de nouveaux pigments les deux min\u00e9raux seront par la suite de moins en moins employ\u00e9s.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp23"
+    },
+    {
+        "salle": "M",
+        "nom": "Gypse",
+        "desc": "Le gypse est un sulfate de calcium hydrat\u00e9 avec lequel on fabrique le pl\u00e2tre apr\u00e8s un chauffage \u00e0 120?. Dans la peinture au chevalet il a \u00e9t\u00e9 employ\u00e9 comme couche pr\u00e9paratoire. La couche de gypse dans la peinture italienne est appel\u00e9e gesso. On ajoutait au gypse une colle souvent d'origine animale. Titien, c\u00e9l\u00e8bre peintre v\u00e9nitien disposait cette couche de gesso mais \u00e0 contrario de beaucoup d'autres peintres il ne la couvrait pas d'un fond color\u00e9. Il \u00e9laborait ses compositions directement sur ce fond blanc.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp24"
+    },
+    {
+        "salle": "N",
+        "nom": "Turquoise",
+        "desc": "Les peintres de l'Egypte antique avaient peu de pigments \u00e0 disposition. Seuls les bleu et vert \u00e9taient \u00e9labor\u00e9s \u00e0 partir d'un processus sophistiqu\u00e9. Mais diff\u00e9rents min\u00e9raux \u00e9taient disponibles. Des \u00e9tudes de la mission permanente du CNRS de Karnak ont permis de d\u00e9montrer que les pigments jaunes utilis\u00e9s par les \u00c9gyptiens contenaient entre autres min\u00e9raux de la hornblende, un silicate amphibole. La turquoise, un phosphate de cuivre et d'aluminium, permettait, une fois broy\u00e9e d'avoir du bleu clair.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp25"
+    },
+    {
+        "salle": "O",
+        "nom": "Bitume",
+        "desc": "Les \u00ab Romantiques \u00bb (G\u00e9ricault, Delacroix, Gros ... ) se servaient du bitume pour les teintes brunes tr\u00e8s fonc\u00e9es. Mais le bitume pose un probl\u00e8me dans la conservation de la peinture car il a tendance \u00e0 se fissurer en s\u00e9chant. Delacroix s'en sert massivement dans ses \u0153uvres, parfois \u00e0 tort, ce qui en rendit certaines tr\u00e8s sombres. La mort de Sardanapale (1827) est l'une de ses \u0153uvres durement critiqu\u00e9es par l'Acad\u00e9mie de peinture et de sculpture. L'utilisation massive du bitume en fait une \u0153uvre tr\u00e8s sombre avec une composition peu lisible.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp26"
+    },
+    {
+        "salle": "O",
+        "nom": "Lazurite",
+        "desc": "La lazurite est le min\u00e9ral bleu du lapis-lazuli. Le bleu outremer est obtenu par broyage. Bien souvent venu d'Afghanistan, il arrivait par bateau \u00e0 Venise. Son prix \u00e9tant exorbitant, ce bleu \u00e9tait r\u00e9serv\u00e9 aux seules repr\u00e9sentations des v\u00eatements de la Vierge ou du Roi de France. La compr\u00e9hension de ce pigment au bleu si particulier donna du fil \u00e0 retordre aux chimistes puisqu'ils cherch\u00e8rent pendant plusieurs si\u00e8cles \u00e0 le recr\u00e9er. En 1824, est ouvert un concours en France pour parvenir \u00e0 le synth\u00e9tiser. Jean-Baptiste Guimet le gagna en produisant un bleu outremer sans d\u00e9pendre de l'importation et de l'exploitation du lapis-lazuli.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp27"
+    },
+    {
+        "salle": "O",
+        "nom": "Argiles",
+        "desc": "Les min\u00e9raux argileux ont \u00e9t\u00e9 utilis\u00e9s d\u00e8s l\u2019aube de l\u2019Humanit\u00e9. Leur comportement en pr\u00e9sence d\u2019eau, la vari\u00e9t\u00e9 des couleurs dont ils peuvent se parer en font un\u00a0mat\u00e9riau privil\u00e9gie pour l\u2019art pictural. C\u2019est avec la goethite et l\u2019h\u00e9matite le principal constituant de l\u2019ocre.",
+        "photo": "303_15_Chalcopyrite_quartz.jpg",
+        "audio": "audio.mp28"
+    },
+    {
+        "salle": "",
+        "nom": "",
+        "desc": "",
+        "photo": "",
+        "audio": ""
+    }
+]
