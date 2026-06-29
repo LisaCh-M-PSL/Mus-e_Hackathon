@@ -1,6 +1,14 @@
 :root {
-    --color-blue: #005D97;
-    --color-orange: #f79634;
+    --black: #000000ff;
+    --carot: #f79634ff;
+    --blue: #005e9eff;
+    --golden: #eba000ff;
+    --deep-mocha: #3a2f2aff;
+    --white: #ffffffff;
+}
+
+"files.associations": {
+  "*.css": "tailwindcss"
 }
 
 * {
@@ -19,7 +27,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 20px;
-    background: linear-gradient(135deg, var(--color-blue) 0%, var(--color-orange) 100%);
+    background: linear-gradient(135deg, var(--blue) 0%, var(--carot) 100%);
     color: white;
     padding: 16px 20px;
     border-radius: 8px;
@@ -57,7 +65,7 @@ body {
 
 .action-button {
     background: white;
-    color: var(--color-blue);
+    color: var(--blue);
 }
 
 .action-button:hover {
