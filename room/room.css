@@ -1,0 +1,25 @@
+:root{
+    --orange : #F79634 ;
+    --bleu : #005d97 ;
+}
+
+
+#minerals{
+    display : grid ;
+    grid-template-areas: 
+    "photo_1 photo_2"
+    "photo_3 photo_4" ;
+    grid-template-columns: 
+    1fr 1fr ;
+    grid-column-gap: 10px ;
+    grid-row-gap : 10px ;
+}
+
+img{
+    max-width: 100%;
+    width: auto;
+}
+
+.mineral{
+    
+}
