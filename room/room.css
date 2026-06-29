@@ -9,9 +9,6 @@
 
 #minerals{
     display : grid ;
-    grid-template-areas: 
-    "photo_1 photo_2"
-    "photo_3 photo_4" ;
     grid-template-columns: 
     1fr 1fr ;
     grid-column-gap: 10px ;
