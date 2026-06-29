@@ -1,4 +1,31 @@
-const modal = document.getElementById('audio-modal');
+document.addEventListener("DOMContentLoaded", () => {
+
+    const grid = document.getElementById("minerals")
+
+    fetch('./data.json')
+        .then(res => res.json())
+        .then(data => {
+            console.log(data);
+        
+        const room_data = data.filter((lign)=>lign.salle == "G")
+            console.log(room_data);
+
+        for (mineral of room_data){
+            const newbox = document.createElement("section");
+            newbox.classList.add("mineral") ;
+            newbox.setAttribute("data-nom", mineral.nom)
+            newbox.setAttribute("data-audio", mineral.audio)
+            newbox.setAttribute("data-desc", mineral.desc)
+            newbox.innerHTML= `
+            <img src="./images/${mineral.photo}" alt="photo de ${mineral.nom}" />
+            <div>${mineral.nom}</div>
+            `
+            grid.appendChild(newbox);
+        }   
+        
+        
+
+        const modal = document.getElementById('audio-modal');
 const closeModalBtn = document.getElementById('close-modal');
 
 const modalTitle = document.getElementById('modal-title');
@@ -31,3 +58,10 @@ modal.addEventListener('close', () => {
     modalAudio.pause();
     modalAudio.currentTime = 0;
 });
+
+
+
+
+
+    })
+})

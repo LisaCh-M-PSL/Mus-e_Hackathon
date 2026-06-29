@@ -1,12 +1,5 @@
 [
     {
-        "salle": "Salle",
-        "nom": "Nom",
-        "desc": "Description",
-        "photo": "Photo",
-        "audio": "Audio"
-    },
-    {
         "salle": "G",
         "nom": "Graphite",
         "desc": "Le graphite comme le diamant est compos\u00e9 exclusivement de carbone. Il est traditionnellement utilis\u00e9 pour faire des mines de crayons. Le fusain et les craies noires \u00e9taient les outils principaux pour l'artiste jusqu'au XVIlle si\u00e8cle. C'est avec eux qu'il r\u00e9alisait les dessins pr\u00e9paratoires avant de peindre. C'est au XVle si\u00e8cle que quelques peintres ont commenc\u00e9 \u00e0 s'int\u00e9resser au graphite. Il permet en effet de r\u00e9aliser des esquisses beaucoup plus faciles \u00e0 faire dispara\u00eetre sous la peinture que craies noires ou fusains.",
