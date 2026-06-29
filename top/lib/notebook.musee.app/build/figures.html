@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figures</title>
+    <link rel="stylesheet" href="figures.css">
+</head>
+
+<body>
+    <div class="install-banner" data-controller="install-banner">
+        <p data-install-banner-target="text"
+            data-text-default="Ajoutez Musée à votre écran d'accueil pour une expérience optimale."
+            data-text-chrome="Sur Chrome, utilisez le menu ⋮ puis « Ajouter à l'écran d'accueil »."
+            data-text-firefox="Sur Firefox, utilisez le menu ⋮ puis « Ajouter à l'écran d'accueil »."
+            data-text-opera="Sur Opera, utilisez le menu ⋮ puis « Ajouter à l'écran d'accueil ».">
+            Ajoutez l'application à votre écran d'accueil pour une expérience optimale.
+        </p>
+        <div class="panel-actions">
+            <a class="action-button small" href="/profil/installer">
+                Voir comment faire
+            </a>
+            <button type="button" class="ghost small" data-action="click->install-banner#dismiss">
+                Ne plus afficher
+            </button>
+        </div>
+    </div>
+
+    <script src="figures.js" defer></script>
+</body>
+
+</html>
