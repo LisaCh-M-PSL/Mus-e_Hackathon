@@ -112,3 +112,9 @@ h3{
 .text{
   color : white;
 }
+
+.reseaux-sociaux {
+position: relative;
+text-align: center;
+align-items: center;
+}
