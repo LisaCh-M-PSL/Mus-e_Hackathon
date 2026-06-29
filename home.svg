@@ -1,2 +1,75 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="-1 0 58 58" xmlns="http://www.w3.org/2000/svg"><defs><filter id="a" width="200%" height="200%" x="-50%" y="-50%" filterUnits="objectBoundingBox"><feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1" result="shadowMatrixOuter1"/><feMerge><feMergeNode in="shadowMatrixOuter1"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs><path fill-rule="evenodd" d="M33.001 35c.552 0 .999-.453.999-.997v-7.003h-12v7.003c0 .551.443.997.999.997h2.001v-6.003c0-.551.451-.997.991-.997h4.018c.547 0 .991.453.991.997v6.003h2.001zm-11.001-8h12l2 2v6.002c0 1.104-.895 1.998-1.994 1.998h-12.012c-1.101 0-1.994-.887-1.994-1.998v-6.002l2-2zm5 3h2v5h-2v-5zm.215-12.372c.433-.347 1.141-.343 1.569 0l8.431 6.745c.433.347.582 1.032.337 1.522l-.105.211c-.247.494-.8.62-1.23.286l-8.217-6.391-8.217 6.391c-.432.336-.985.204-1.23-.286l-.105-.211c-.247-.494-.091-1.179.337-1.522l8.431-6.745z" filter="url(#a)"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="-1 0 58 58"
+   version="1.1"
+   id="svg2"
+   sodipodi:docname="home.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview2"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.64965436"
+     inkscape:cx="173.93865"
+     inkscape:cy="548.75334"
+     inkscape:window-width="1920"
+     inkscape:window-height="974"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs2">
+    <filter
+       id="a"
+       width="3.4819763"
+       height="3.4960837"
+       x="-1.2409882"
+       y="-1.2225716"
+       filterUnits="objectBoundingBox">
+      <feOffset
+         dy="1"
+         in="SourceAlpha"
+         result="shadowOffsetOuter1"
+         id="feOffset1" />
+      <feGaussianBlur
+         stdDeviation="10"
+         in="shadowOffsetOuter1"
+         result="shadowBlurOuter1"
+         id="feGaussianBlur1" />
+      <feColorMatrix
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
+         in="shadowBlurOuter1"
+         result="shadowMatrixOuter1"
+         id="feColorMatrix1" />
+      <feMerge
+         id="feMerge2">
+        <feMergeNode
+           in="shadowMatrixOuter1"
+           id="feMergeNode1" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode2" />
+      </feMerge>
+    </filter>
+  </defs>
+  <path
+     fill-rule="evenodd"
+     d="M 33.001,35 C 33.553,35 34,34.547 34,34.003 V 27 H 22 v 7.003 C 22,34.554 22.443,35 22.999,35 H 25 V 28.997 C 25,28.446 25.451,28 25.991,28 h 4.018 C 30.556,28 31,28.453 31,28.997 V 35 Z M 22,27 h 12 l 2,2 v 6.002 C 36,36.106 35.105,37 34.006,37 H 21.994 C 20.893,37 20,36.113 20,35.002 V 29 Z m 5,3 h 2 v 5 h -2 z m 0.215,-12.372 c 0.433,-0.347 1.141,-0.343 1.569,0 l 8.431,6.745 c 0.433,0.347 0.582,1.032 0.337,1.522 l -0.105,0.211 c -0.247,0.494 -0.8,0.62 -1.23,0.286 L 28,20.001 19.783,26.392 c -0.432,0.336 -0.985,0.204 -1.23,-0.286 l -0.105,-0.211 c -0.247,-0.494 -0.091,-1.179 0.337,-1.522 l 8.431,-6.745 z"
+     filter="url(#a)"
+     id="path2"
+     transform="matrix(2.0593505,0,0,1.8738471,-30.478101,-24.396179)" />
+</svg>
