@@ -87,7 +87,7 @@ h3{
 }
 
 .tab-link.is-active {
-    background: linear-gradient(150deg, #005f9eaa, #1e8dd771);
+    background: #005d97;
     color: var(--color-text);
 }
 .tab-nav {

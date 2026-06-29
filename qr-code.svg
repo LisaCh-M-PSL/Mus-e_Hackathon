@@ -26,8 +26,8 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:zoom="0.91875"
-     inkscape:cx="399.45578"
-     inkscape:cy="400"
+     inkscape:cx="321.08844"
+     inkscape:cy="397.82313"
      inkscape:window-width="1920"
      inkscape:window-height="974"
      inkscape:window-x="-11"
@@ -40,21 +40,21 @@
      d="m 3.0734694,3.5632653 h 5.84345 v 5.549563 h -5.84345 z M 5.021286,5.4131195 V 7.2629738 H 6.9691026 V 5.4131195 Z"
      fill="#000000"
      id="path1"
-     style="stroke-width:1.26547" />
+     style="stroke-width:1.26547;fill:#ffffff" />
   <path
      fill-rule="evenodd"
      clip-rule="evenodd"
      d="m 15.409511,3.5632653 h 5.84345 v 5.549563 h -5.84345 z m 1.947816,1.8498542 v 1.8498543 h 1.947817 V 5.4131195 Z"
      fill="#000000"
      id="path2"
-     style="stroke-width:1.26547" />
+     style="stroke-width:1.26547;fill:#ffffff" />
   <path
      fill-rule="evenodd"
      clip-rule="evenodd"
      d="m 3.0734694,15.279008 h 5.84345 v 5.549563 h -5.84345 z m 1.9478166,1.849855 v 1.849854 h 1.9478166 v -1.849854 z"
      fill="#000000"
      id="path3"
-     style="stroke-width:1.26547" />
+     style="stroke-width:1.26547;fill:#ffffff" />
   <rect
      x="3.0734694"
      y="11.27099"
@@ -62,7 +62,7 @@
      height="1.8498542"
      fill="#000000"
      id="rect3"
-     style="stroke-width:1.26547" />
+     style="stroke-width:1.26547;fill:#ffffff" />
   <rect
      x="6.9691019"
      y="11.27099"
@@ -70,7 +70,7 @@
      height="1.8498542"
      fill="#000000"
      id="rect4"
-     style="stroke-width:1.26547" />
+     style="stroke-width:1.26547;fill:#ffffff" />
   <rect
      x="11.081074"
      y="11.27099"
@@ -78,7 +78,7 @@
      height="1.8498542"
      fill="#000000"
      id="rect5"
-     style="stroke-width:1.26547" />
+     style="stroke-width:1.26547;fill:#ffffff" />
   <rect
      x="11.081074"
      y="15.124853"
@@ -86,7 +86,7 @@
      height="1.8498542"
      fill="#000000"
      id="rect6"
-     style="stroke-width:1.26547" />
+     style="stroke-width:1.26547;fill:#ffffff" />
   <rect
      x="11.081074"
      y="18.978716"
@@ -94,7 +94,7 @@
      height="1.8498542"
      fill="#000000"
      id="rect7"
-     style="stroke-width:1.26547" />
+     style="stroke-width:1.26547;fill:#ffffff" />
   <rect
      x="11.081074"
      y="7.4171281"
@@ -102,7 +102,7 @@
      height="1.8498542"
      fill="#000000"
      id="rect8"
-     style="stroke-width:1.26547" />
+     style="stroke-width:1.26547;fill:#ffffff" />
   <rect
      x="11.081074"
      y="3.5632653"
@@ -110,7 +110,7 @@
      height="1.8498542"
      fill="#000000"
      id="rect9"
-     style="stroke-width:1.26547" />
+     style="stroke-width:1.26547;fill:#ffffff" />
   <rect
      x="15.193172"
      y="11.27099"
@@ -118,7 +118,7 @@
      height="1.8498542"
      fill="#000000"
      id="rect10"
-     style="stroke-width:1.26547" />
+     style="stroke-width:1.26547;fill:#ffffff" />
   <rect
      x="19.305145"
      y="11.27099"
@@ -126,7 +126,7 @@
      height="1.8498542"
      fill="#000000"
      id="rect11"
-     style="stroke-width:1.26547" />
+     style="stroke-width:1.26547;fill:#ffffff" />
   <rect
      x="15.193172"
      y="15.124853"
@@ -134,7 +134,7 @@
      height="1.8498542"
      fill="#000000"
      id="rect12"
-     style="stroke-width:1.26547" />
+     style="stroke-width:1.26547;fill:#ffffff" />
   <rect
      x="19.305145"
      y="15.124853"
@@ -142,7 +142,7 @@
      height="1.8498542"
      fill="#000000"
      id="rect13"
-     style="stroke-width:1.26547" />
+     style="stroke-width:1.26547;fill:#ffffff" />
   <rect
      x="15.193172"
      y="18.978716"
@@ -150,7 +150,7 @@
      height="1.8498542"
      fill="#000000"
      id="rect14"
-     style="stroke-width:1.26547" />
+     style="stroke-width:1.26547;fill:#ffffff" />
   <rect
      x="19.305145"
      y="18.978716"
@@ -158,5 +158,5 @@
      height="1.8498542"
      fill="#000000"
      id="rect15"
-     style="stroke-width:1.26547" />
+     style="stroke-width:1.26547;fill:#ffffff" />
 </svg>
