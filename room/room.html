@@ -1,35 +1,34 @@
-<link rel="stylesheet" href="room.css">
 
-<html>
-
+<!DOCTYPE html>
+<html lang="fr">
 <head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salle G</title>
+    <link rel="stylesheet" href="room.css">
 </head>
-
 <body>
     <section id="header">
         <h1>Salle G</h1>
     </section>
 
     <section id="minerals">
-        <section id="photo_1" div="mineral">
-            <img src="images/test.jpg" alt="photo du minéral"/>
-            <div>Nom du minéral</div>
-        </section>
-        <section id="photo_2" div="mineral">
-            <img src="images/test.jpg" alt="photo du minéral" />
-            <div>Nom du minéral</div>
-        </section>
-        <section id="photo_3" div="mineral">
-            <img src="images/test.jpg" alt="photo du minéral" />
-            <div>Nom du minéral</div>
-        </section>
-        <section id="photo_4" div="mineral">
-            <img src="images/test.jpg" alt="photo du minéral" />
-            <div>Nom du minéral</div>
-        </section>
+        
     </section>
+
+    <dialog id="audio-modal">
+        <button id="close-modal" aria-label="Fermer">✕</button>
+        
+        <h2 id="modal-title">Nom du minéral</h2>
+        <img id="modal-img" src="" alt="Photo zoomée">
+        
+        <div class="audio-container">
+            <audio id="modal-audio" controls></audio>
+        </div>
+        
+        <p id="modal-desc">Description du minéral...</p>
+    </dialog>
+
+    <script src="room.js"></script>
 </body>
-
-
 </html>
