@@ -1,9 +1,9 @@
 <template>
   <div class="salle-container">
     <!-- Option A : Le SVG en fond de page (cover) -->
-    <div class="salle-background" :style="{ backgroundImage: `url(${planSalleF})` }">
+    <div class="salle-background" :style="{ backgroundImage: `url(${planSalleH})` }">
       <div class="content-overlay">
-        <h1>Salle F : Les Origines</h1>
+        <h1>Salle H : Les Origines</h1>
         <p>Description de la salle...</p>
         <!-- Vos éléments interactifs ici -->
       </div>
@@ -12,8 +12,8 @@
     <!-- Option B : Le SVG intégré directement (meilleur pour l'interactivité/clics) -->
     <!-- 
     <div class="salle-content">
-      <img :src="planSalleF" alt="Plan de la salle F" class="plan-svg" />
-      <h1>Salle F</h1>
+      <img :src="planSalleH" alt="Plan de la salle F" class="plan-svg" />
+      <h1>Salle H</h1>
     </div> 
     -->
     
@@ -23,13 +23,13 @@
 </template>
 
 <script>
-import planSalleF from '@/assets/plans/sallef.svg' // Import du SVG
+import planSalleH from '@/assets/plans/salleh.svg' // Import du SVG
 
 export default {
-  name: 'SalleF',
+  name: 'SalleH',
   setup() {
     return {
-      planSalleF
+      planSalleH
     }
   }
 }

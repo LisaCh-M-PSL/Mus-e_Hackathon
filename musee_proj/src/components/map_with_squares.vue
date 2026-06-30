@@ -1,7 +1,8 @@
 <script setup>
 import { ref } from 'vue'
 import mapTest from '../../public/map_test5.svg'
-import squareK from '../assets/squareK.svg'
+import squareK from '../assets/pin_map.svg'
+import squareKActive from '../assets/pin_map_blue.svg'
 
 
 const count = ref(0)
@@ -48,7 +49,7 @@ const handleSquareClick = (squareId) => {
           :title="squareItem.name"
           @click="handleSquareClick(squareItem.id)"
         >
-          <img :src="selectedSquare === squareItem.id ? squareK : squareK" :alt="squareItem.name" />
+          <img :src="selectedSquare === squareItem.id ? squareKActive : squareK" :alt="squareItem.name" />
         </button>
       </div>
     </div>
@@ -76,13 +77,11 @@ const handleSquareClick = (squareId) => {
       <ul>
         <li>
           <a href="https://vite.dev/" target="_blank">
-            <img class="logo" :src="viteLogo" alt="" />
             Explore Vite
           </a>
         </li>
         <li>
           <a href="https://vuejs.org/" target="_blank">
-            <img class="button-icon" :src="vueLogo" alt="" />
             Learn more
           </a>
         </li>
