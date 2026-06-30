@@ -34,23 +34,24 @@ if (!(isMobile())){
     normalimage(image)
   });
 });
-}
+};
 
 if (isMobile()){
-  const images = document.querySelectorAll("img.blur");
-  images.forEach((image)=>{ 
-    image.addEventListener('touchstart', ()=> blurimage(image))
-  })
-  images.forEach((image)=>{ 
-    image.addEventListener('touchend', ()=> normalimage(image))
-  })
-  const textes = document.querySelectorAll(".credit");
-  textes.forEach((txt)=>{ 
-    txt.addEventListener('touchstart', ()=> add_credit(txt))
-  })
-  textes.forEach((txt)=>{ 
-    txt.addEventListener('touchend', ()=> remove_credit(txt))
-  })
-}
+  const photos = document.querySelectorAll(".Photo");
 
+ photos.forEach((photo) => {
+  const image = photo.querySelector("img.blur");
+  const credit = photo.querySelector(".credit");
+
+  image.addEventListener("touchstart", () => {
+    credit.style.opacity = "1";
+    blurimage(image);
+  });
+
+  image.addEventListener("touchend", () => {
+    credit.style.opacity = "0";
+    normalimage(image)
+  });
+})
+}
 });
