@@ -1,8 +1,10 @@
 body{
   background-color: rgb(255, 255, 255);
   margin : 0;
-  padding : 0;
+  padding :0;
+  padding-bottom: 25%;
 }
+
 
 h1 {
     color: rgb(255,255,255);
@@ -55,7 +57,11 @@ h1 {
   display: grid;
   gap: .4rem;
   grid-template-columns: repeat(4, 5fr);
+  position: relative;
+  text-align: center;
+  align-items: center;
 }
+
 
 #Facebook {
     width: 50%;
@@ -85,12 +91,9 @@ h3{
     font-size: 30px;
     text-align: justify;
     text-justify: auto;
+    margin: 5%;
 }
 
-.texteintro{
-  margin: 10%;
-
-}
 
 .tab-link {
     align-items: center;
@@ -135,8 +138,21 @@ h3{
   color : white;
 }
 
-.reseaux-sociaux {
-position: relative;
-text-align: center;
-align-items: center;
+.grid{
+  display: grid;
+  gap: .4rem;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(7, auto);
+  border-right: 1px solid #333;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid #333;
+  column-gap: 16px;
+  margin : 16px;
+  border-radius: 26px;
+  border-radius: 26px;
+}
+
+.grid > *:nth-child(odd) {
+  border-right: 1px solid #333;
+  padding-right: 20px;
 }
