@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import mapTest from '../../public/map_test5.svg'
-import square_room_M from '../assets/square_room_M.svg'
+import squareK from '../assets/squareK.svg'
 
 
 const count = ref(0)
@@ -38,22 +38,22 @@ const handleSquareClick = (squareId) => {
     <div class="container" @wheel="handleWheel">
       <div class="map-wrapper" :style="{ transform: `scale(${zoom})`, transformOrigin: 'top left' }">
         <img :src="mapTest" class="base" alt="Carte" />
-        <!-- Pins cliquables -->
+        <!-- Squares cliquables -->
         <button
-          v-for="pinItem in pins"
-          :key="pinItem.id"
-          class="pin"
-          :class="{ active: selectedPin === pinItem.id }"
-          :style="{ left: pinItem.x + '%', top: pinItem.y + '%', transform: `translate(-50%, -50%) scale(${selectedPin === pinItem.id ? 1.3/zoom : 1/zoom})` }"
-          :title="pinItem.name"
-          @click="handlePinClick(pinItem.id)"
+          v-for="squareItem in squares"
+          :key="squareItem.id"
+          class="square"
+          :class="{ active: selectedSquare === squareItem.id }"
+          :style="{ left: squareItem.x + '%', top: squareItem.y + '%', transform: `translate(-50%, -50%) scale(${selectedSquare === squareItem.id ? 1.3/zoom : 1/zoom})` }"
+          :title="squareItem.name"
+          @click="handleSquareClick(squareItem.id)"
         >
-          <img :src="selectedPin === pinItem.id ? pinBlue : pin" :alt="pinItem.name" />
+          <img :src="selectedSquare === squareItem.id ? squareK : squareK" :alt="squareItem.name" />
         </button>
       </div>
     </div>
-    <div v-if="selectedPin" class="pin-info">
-      <p>Pin sélectionné: {{ pins.find(p => p.id === selectedPin)?.name }}</p>
+    <div v-if="selectedSquare" class="square-info">
+      <p>Square sélectionné: {{ squares.find(s => s.id === selectedSquare)?.name }}</p>
     </div>
     <div>
       <h1>Get started</h1>
@@ -160,7 +160,7 @@ const handleSquareClick = (squareId) => {
   display: block;
 }
 
-.pin {
+.square {
   position: absolute;
   background: none;
   border: none;
@@ -172,13 +172,13 @@ const handleSquareClick = (squareId) => {
   z-index: 10;
 }
 
-.pin img {
+.square img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
 
-.pin-info {
+.square-info {
   margin-top: 15px;
   padding: 10px;
   background-color: #f0f0f0;

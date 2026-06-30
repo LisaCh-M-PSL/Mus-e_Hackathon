@@ -1,5 +1,5 @@
 <script setup>
-import HelloWorld from './components/map_with_pins.vue'
+import HelloWorld from './components/map_with_squares.vue'
 </script>
 
 <template>
