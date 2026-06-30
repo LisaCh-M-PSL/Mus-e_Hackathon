@@ -2,12 +2,13 @@ body{
   background-color: rgb(255, 255, 255);
   margin : 0;
   padding : 0;
+  padding-bottom : 25%;
 }
 
 h1 {
     color: rgb(255,255,255);
     font-family: Diamonds;
-    font-size: 48px;
+    font-size: 3em;
 }
 
 .app-header {
