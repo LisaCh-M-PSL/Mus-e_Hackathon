@@ -122,3 +122,29 @@ h3{
   gap: 1rem;
   margin-left: 1rem;
 }
+
+#resultat{
+  color: rgb(0,0,0);
+  font-family: Diamonds;
+  font-size: 2em;
+  text-align: center;
+}
+
+.conteneur {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+#ouvrirLien{
+    font-family: Diamonds;
+    font-size: 2em;
+    color:white;
+    background-color: #005D97;
+    border-radius: 13px; 
+    height: 3em;
+    width: 8em;
+}
