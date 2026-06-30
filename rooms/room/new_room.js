@@ -5,11 +5,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const urlParams = new URLSearchParams(window.location.search);
     const lettreSalle = urlParams.get('salle');
 
+    document.getElementById("room_name").innerText = `Salle ${lettreSalle}`
+    document.title = `Salle ${lettreSalle}`
+
     fetch('./data.json')
         .then(res => res.json())
         .then(data => {
             console.log(data);
-        
+
         const room_data = data.filter((lign)=>lign.salle == lettreSalle)
             console.log(room_data);
 
