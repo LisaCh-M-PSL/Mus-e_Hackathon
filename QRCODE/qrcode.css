@@ -113,3 +113,12 @@ h3{
 .text{
   color : white;
 }
+
+#reader{
+  border:none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-left: 1rem;
+}

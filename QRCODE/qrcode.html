@@ -2,7 +2,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="qrcode.css">
-  <script src="qrcode.js" defer></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/html5-qrcode/2.3.8/html5-qrcode.min.js"></script>
 </head>
 
 <body>
@@ -13,6 +13,12 @@
     <img id = "logoPSL" src="../images/PSL.png">
     
 </div>
+<br>
+<h1>Scanner un QR Code</h1>
+  <div id="reader" style="width: 90%; height : 90%"></div>
+  <p id="resultat"></p>
+  <button id="ouvrirLien" style="display:none;">Ouvrir le lien</button>
+  <script src="qrcode.js"></script>
 
 <br>
 
@@ -35,13 +41,13 @@
             </span>
             <span class="text">Salle</span>
         </a>
-        <a class="tab-link" href="/QrCode" data-target="QrCode">
+        <a class="tab-link is-active" href="/QrCode" data-target="QrCode">
             <span class="tab-icon">
                 <img  height="100px" width="100px" src="../images/qr-code.svg"> </img>
             </span>
             <span class="text">Qr Code</span>
         </a>
-        <a class="tab-link is-active" href="/Info" data-target="Info">
+        <a class="tab-link" href="/Info" data-target="Info">
             <span class="tab-icon">
                 <img  height="100px" width="100px" src="../images/information.svg"> </img>
             </span>
