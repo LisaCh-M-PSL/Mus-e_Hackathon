@@ -11,6 +11,7 @@ body{
   background-color: rgb(255, 255, 255);
   margin : 0;
   padding : 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 #header{
@@ -37,15 +38,16 @@ body{
     height: 40px;
     cursor: pointer;
     font-weight: bold;
+
 }
 
 
 
 #welcome{
-    font-size : 36px ;
+    font-size : 25px ;
 }
 #room_name{
-    font-size : 48px ; 
+    font-size : 35px ; 
     font-weight: bold;
 }
 #minerals {
@@ -100,10 +102,12 @@ body{
 }
 
 #previous{
+    font-size : 22px ;
     grid-area : previous ;
 }
 
 #next{
+    font-size : 22px ;
     grid-area : next ;
 }
 
