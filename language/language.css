@@ -7,4 +7,38 @@ body{
   padding : 0;
   padding-bottom : 25%;
   background-image: url(../images/musee_enfilade.jpg);
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+#languages {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(250px, 9fr)); 
+    gap: 25px;
+    padding: 0 25px 40px 25px;
+    align-items: stretch;
+    text-align: center;
+    max-width: 1200px; 
+    margin: 0 auto; 
+    width: 100%
+
+}
+.language {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none; 
+    padding: 15px;
+    font-size: 400%;
+    font-weight: bold;
+    color: var(--blue);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+    width: 100%
+}
+
+@media (max-width: 1000px) {
+    #languages {
+        grid-template-columns: 1fr;
+    }
 }
