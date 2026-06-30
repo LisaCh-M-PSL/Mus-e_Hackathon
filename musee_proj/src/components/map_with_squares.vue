@@ -1,8 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import mapTest from '../../public/map_test5.svg'
-import squareK from '../assets/pin_map.svg'
-import squareKActive from '../assets/pin_map_blue.svg'
+import squareK from '../assets/squareK.svg'
 
 
 const count = ref(0)
