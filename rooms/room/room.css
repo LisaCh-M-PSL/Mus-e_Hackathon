@@ -39,6 +39,8 @@ body{
     font-weight: bold;
 }
 
+
+
 #welcome{
     font-size : 36px ;
 }
@@ -70,16 +72,40 @@ body{
 }
 
 
-
-
 .mineral img {
     max-width: 100%;
     height: 200px; 
     object-fit: cover; 
     border-radius: 10px;
     margin-bottom: 15px;
+    
 }
 
+#change{
+    display : grid ;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-areas: "previous next";
+    gap: 25px;
+    padding: 0 25px 40px 25px;
+    align-items: stretch;
+    text-align: center;
+    max-width: 1200px; 
+    margin: 0 auto;
+    margin-top : 50px ;
+}
+
+#change>section{
+    background-color: var(--blue);
+    color : var(--white)
+}
+
+#previous{
+    grid-area : previous ;
+}
+
+#next{
+    grid-area : next ;
+}
 
 dialog {
     border: none;

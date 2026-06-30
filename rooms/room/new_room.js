@@ -8,6 +8,31 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("room_name").innerText = `Salle ${lettreSalle}`
     document.title = `Salle ${lettreSalle}`
 
+    const dict = {"G":["","H"], "H":["G","I"], "I":["H","K"], "K":["I","L"], "L":["K","M"], "M":["L","N"], "N":["M","O"], "O":["N",""]}
+    const change = document.getElementById("change")
+    if (lettreSalle!="G"){
+        const previous = document.createElement("section");
+        previous.classList.add("mineral") ;
+        previous.id = "previous"
+        previous.innerText= `Vers salle ${dict[lettreSalle][0]}          `
+        change.appendChild(previous);
+        document.getElementById("previous").addEventListener('click', ()=>{
+            window.location.href=`/rooms/room/room.html?salle=${dict[lettreSalle][0]}`
+        })
+    }
+
+    if (lettreSalle!="O"){
+        const next = document.createElement("section");
+        next.classList.add("mineral") ;
+        next.id = "next"
+        next.innerText= `Vers salle ${dict[lettreSalle][1]}          `
+        change.appendChild(next);
+        document.getElementById("next").addEventListener('click', ()=>{
+            window.location.href=`/rooms/room/room.html?salle=${dict[lettreSalle][1]}`
+        })
+    }
+
+
     document.getElementById("back").addEventListener('click',()=>{
         window.location.href = "/rooms/rooms.html";
     })
