@@ -51,6 +51,28 @@ h1 {
     margin: auto;
 }
 
+.reseaux-sociaux{
+  display: grid;
+  gap: .4rem;
+  grid-template-columns: repeat(4, 5fr);
+}
+
+#Facebook {
+    width: 50%;
+}
+
+#Twitter{
+    width: 50%;
+}
+
+#Linkedin {
+    width: 50%;
+}
+#Youtube {
+    width: 54%;
+}
+
+
 h2 {
     color: #005D97;
     font-family: Diamonds;
