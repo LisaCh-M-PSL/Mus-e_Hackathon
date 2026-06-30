@@ -93,7 +93,6 @@ h3{
     text-justify: auto;
     margin: 5%;
 }
-<<<<<<< HEAD
 h4{
   font-style: normal;
   font-weight: normal;
@@ -105,7 +104,6 @@ h4{
   margin: 5%;
 }
 
-=======
 .Photo {
   position: relative;
   transition: opacity 0.3s ease;
@@ -121,7 +119,6 @@ h4{
     transform: translate(-70%, -100%);
     transition: opacity 0.3s ease;
 }
->>>>>>> 9c16676af592acf96b068518b4fc73cfae9e80d9
 
 .tab-link {
     align-items: center;
