@@ -1,0 +1,61 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="qrcode.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/html5-qrcode/2.3.8/html5-qrcode.min.js"></script>
+</head>
+
+<body>
+
+<div class="app-header">
+    <img src="../images/mines.png">
+    <h1> Mines de Paris Mineralogy Museum</h1>
+    <img id = "logoPSL" src="../images/PSL.png">
+    
+</div>
+<br>
+<div class="conteneur">
+    <h1>Scan a QR Code</h1>
+    <p id="resultat"></p>
+    <button id="ouvrirLien" style="display:none;">Open the link</button>
+    <div id="reader" style="width: 90%; height : 90%"></div>
+    <script src="qrcode.js"></script>
+</div>
+
+<br>
+ <nav class="tab-nav">
+        <a class="tab-link" href="../home/home_e.html" data-target="home">
+            <span class="tab-icon">
+                <img viewBox="0 0 40 40" height="100px" width="100px" src="../images/home.svg"> </img>
+            </span>
+            <span class="text">Home</span>
+        </a>
+        <a class="tab-link" href="../map/map_e.html" data-target="map">
+            <span class="tab-icon">
+                <img height="100px" width="100px" src="../images/map.svg">
+        
+            </span>
+            <span class="text">Map</span>
+        </a>
+        <a class="tab-link" href="/gallery" data-target="gallery">
+            <span class="tab-icon">
+                <img  height="100px" width="100px" src="../images/gallery.svg"> </img>
+            </span>
+            <span class="text">Rooms</span>
+        </a>
+        <a class="tab-link is-active" href="../QRCODE/qrcode_e.html" data-target="QrCode">
+            <span class="tab-icon">
+                <img  height="100px" width="100px" src="../images/qr-code.svg"> </img>
+            </span>
+            <span class="text">Qr Code</span>
+        </a>
+        <a class="tab-link" href="../Infos/infos_e.html" data-target="Info">
+            <span class="tab-icon">
+                <img  height="100px" width="100px" src="../images/information.svg"> </img>
+            </span>
+            <span class="text">News</span>
+        </a>
+    </nav>
+</body>
+</html>
+
