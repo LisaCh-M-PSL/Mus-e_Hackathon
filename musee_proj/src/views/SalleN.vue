@@ -64,7 +64,7 @@ const handlePinClick = (pinId) => {
   height: min(667px, 100vh);
   border: 16px solid #000;
   border-radius: 32px;
-  background: #111;
+  background: #fff6e3;
   overflow: hidden;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
   position: relative;
@@ -101,7 +101,4 @@ const handlePinClick = (pinId) => {
   object-fit: contain;
 }
 
-.pin.active {
-  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.4));
-}
 </style>
