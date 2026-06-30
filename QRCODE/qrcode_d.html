@@ -1,0 +1,63 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="qrcode.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/html5-qrcode/2.3.8/html5-qrcode.min.js"></script>
+</head>
+
+<body>
+
+<div class="app-header">
+    <img src="../images/mines.png">
+    <h1> Mineralogisches Museum Mines de Paris – PSL </h1>
+    <img id = "logoPSL" src="../images/PSL.png">
+    
+</div>
+<br>
+<div class="conteneur">
+    <h1>Einen QR-Code scannen</h1>
+    <p id="resultat"></p>
+    <button id="ouvrirLien" style="display:none;">Link öffnen</button>
+    <div id="reader" style="width: 90%; height : 90%"></div>
+    <script src="qrcode.js"></script>
+</div>
+
+<br>
+
+ <nav class="tab-nav">
+        <a class="tab-link" href="../home/home_d.html" data-target="home">
+            <span class="tab-icon">
+                <img viewBox="0 0 40 40" height="100px" width="100px" src="../images/home.svg"> </img>
+            </span>
+            <span class="text">Startseite</span>
+        </a>
+        <a class="tab-link" href="../map/map_d.html" data-target="map">
+            <span class="tab-icon">
+                <img height="100px" width="100px" src="../images/map.svg">
+        
+            </span>
+            <span class="text">Plan</span>
+        </a>
+        <a class="tab-link" href="/gallery_d" data-target="gallery">
+            <span class="tab-icon">
+                <img  height="100px" width="100px" src="../images/gallery.svg"> </img>
+            </span>
+            <span class="text">Räume</span>
+        </a>
+        <a class="tab-link" href="../QRCODE/qrcode_d.html" data-target="QrCode">
+            <span class="tab-icon">
+                <img  height="100px" width="100px" src="../images/qr-code.svg"> </img>
+            </span>
+            <span class="text">Qr Code</span>
+        </a>
+        <a class="tab-link is-active" href="../Infos/infos_d.html" data-target="Info">
+            <span class="tab-icon">
+                <img  height="100px" width="100px" src="../images/information.svg"> </img>
+            </span>
+            <span class="text">Infos</span>
+        </a>
+    </nav>
+<br>
+</body>
+</html>
+
