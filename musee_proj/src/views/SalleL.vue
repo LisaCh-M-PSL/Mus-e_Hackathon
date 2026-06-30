@@ -30,6 +30,7 @@ const handlePinClick = (pinId) => {
 <template>
   <section class="salle-root">
     <div class="phone-frame" @wheel="handleWheel">
+      <h1 class="salle-title">Salle L</h1>
       <div class="map-wrapper" :style="{ transform: `scale(${zoom})`, transformOrigin: 'top left' }">
         <img :src="planSalle" class="base" alt="Plan de Salle L" />
 
@@ -126,5 +127,13 @@ const handlePinClick = (pinId) => {
   width: 22px;
   height: 22px;
   display: block;
+}
+
+.phone-frame .salle-title {
+  color: #6CC983;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 14px auto 10px auto;
+  text-align: center;
 }
 </style>
