@@ -1,8 +1,8 @@
 <script setup>
 import { ref } from 'vue'
 import mapTest from '../../public/map_test.svg'
-import pin from '../assets/pin_map.svg'
-import pinBlue from '../assets/pin_map_blue.svg'
+import square_room_M from '../assets/square_room_M.svg'
+
 
 const count = ref(0)
 const zoom = ref(1)
@@ -16,8 +16,8 @@ const handleWheel = (e) => {
   }
 }
 
-// 5 pins avec leurs positions (en %)
-const pins = ref([
+// 5 squares avec leurs positions 
+const squares = ref([
   { id: 1, x: 20, y: 25, name: 'Point 1' },
   { id: 2, x: 50, y: 30, name: 'Point 2' },
   { id: 3, x: 70, y: 55, name: 'Point 3' },
@@ -25,11 +25,11 @@ const pins = ref([
   { id: 5, x: 80, y: 75, name: 'Point 5' }
 ])
 
-const selectedPin = ref(null)
+const selectedSquare = ref(null)
 
-const handlePinClick = (pinId) => {
-  selectedPin.value = selectedPin.value === pinId ? null : pinId
-  console.log('Pin clicked:', pinId)
+const handleSquareClick = (squareId) => {
+  selectedSquare.value = selectedSquare.value === squareId ? null : squareId
+  console.log('Square clicked:', squareId)
 }
 </script>
 
