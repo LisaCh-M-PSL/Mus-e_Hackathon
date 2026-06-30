@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-import mapTest from '../../public/map_test.svg'
+import mapTest from '../../public/map_test5.svg'
 import square_room_M from '../assets/square_room_M.svg'
 
 
