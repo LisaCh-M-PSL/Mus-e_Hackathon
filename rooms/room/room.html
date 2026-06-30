@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="room.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600" rel="stylesheet">
+
+</head>
+
+<body>
+    <section id="header">
+        <button id="back"><img src="./images/retour.png" alt="Retour à la liste" height="30px" width="30px"/></button>
+        <div id="welcome">Bienvenue dans la</div>
+        <div id="room_name"></div>
+    </section>
+
+    <section id="minerals">
+        
+    </section>
+
+    <section id="change">
+       
+    </section>
+
+    <dialog id="audio-modal">
+        <button id="close-modal" aria-label="Fermer">✕</button>
+        
+        <h2 id="modal-title">Nom du minéral</h2>
+        <img id="modal-img" src="" alt="Photo zoomée">
+
+        <p id="modal-legende"></p>
+        
+        <div class="audio-container">
+            <audio id="modal-audio" controls></audio>
+        </div>
+        
+        <p id="modal-desc">Description du minéral...</p>
+    </dialog>
+
+    <script src="new_room.js"></script>
+</body>
+</html>
