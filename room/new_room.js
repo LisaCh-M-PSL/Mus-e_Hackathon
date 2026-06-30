@@ -16,7 +16,10 @@ document.addEventListener("DOMContentLoaded", () => {
             newbox.setAttribute("data-nom", mineral.nom)
             newbox.setAttribute("data-audio", mineral.audio)
             newbox.setAttribute("data-desc", mineral.desc)
+            newbox.setAttribute("data-legende", mineral.legende)
             newbox.innerHTML= `
+            
+
             <img src="./images/${mineral.photo}" alt="photo de ${mineral.nom}" />
             <div>${mineral.nom}</div>
             `
@@ -32,6 +35,7 @@ const modalTitle = document.getElementById('modal-title');
 const modalImg = document.getElementById('modal-img');
 const modalAudio = document.getElementById('modal-audio');
 const modalDesc = document.getElementById('modal-desc');
+const modalLegende = document.getElementById('modal-legende'); 
 
 document.querySelectorAll('.mineral').forEach(mineral => {
     mineral.addEventListener('click', () => {
@@ -39,11 +43,13 @@ document.querySelectorAll('.mineral').forEach(mineral => {
         const desc = mineral.getAttribute('data-desc');
         const audioSrc = mineral.getAttribute('data-audio');
         const imgSrc = mineral.querySelector('img').src;
+        const legende = mineral.getAttribute('data-legende');
 
         modalTitle.textContent = nom;
         modalDesc.textContent = desc;
         modalImg.src = imgSrc;
         modalAudio.src = audioSrc;
+        modalLegende.textContent = legende;
 
         modal.showModal();
         modalAudio.play();
