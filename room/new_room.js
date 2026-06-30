@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
         .then(data => {
             console.log(data);
         
-        const room_data = data.filter((lign)=>lign.salle == "G")
+        const room_data = data.filter((lign)=>lign.salle == "H")
             console.log(room_data);
 
         for (mineral of room_data){
