@@ -1,20 +1,10 @@
 <script setup>
-import HelloWorld from './components/map_with_squares.vue'
+import MapWithSquares from './components/map_with_squares.vue'
 </script>
 
 <template>
-  <HelloWorld />
+  <MapWithSquares />
 </template>
-
-<template>
-  <router-view />
-</template>
-
-<script>
-export default {
-  name: 'App'
-}
-</script>
 
 <style>
 /* Reset CSS de base si nécessaire */

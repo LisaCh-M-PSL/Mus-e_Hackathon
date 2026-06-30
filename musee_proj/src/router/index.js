@@ -1,12 +1,17 @@
 // src/router/index.js
 import { createRouter, createWebHistory } from 'vue-router'
-// On importera les composants des salles plus tard
+import MapWithSquares from '../components/map_with_squares.vue'
 
 const routes = [
   {
-    path: '/salle-f',
-    name: 'SalleF',
-    component: () => import('../views/SalleF.vue')
+    path: '/',
+    name: 'Home',
+    component: MapWithSquares
+  },
+  {
+    path: '/salle-g',
+    name: 'SalleG',
+    component: () => import('../views/SalleG.vue')
   },
   // Ajoutez autant de salles que nécessaire
 ]
