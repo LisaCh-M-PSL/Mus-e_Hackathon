@@ -2,12 +2,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const grid = document.getElementById("minerals")
 
+    const urlParams = new URLSearchParams(window.location.search);
+    const lettreSalle = urlParams.get('salle');
+
     fetch('./data.json')
         .then(res => res.json())
         .then(data => {
             console.log(data);
         
-        const room_data = data.filter((lign)=>lign.salle == "H")
+        const room_data = data.filter((lign)=>lign.salle == lettreSalle)
             console.log(room_data);
 
         for (mineral of room_data){
