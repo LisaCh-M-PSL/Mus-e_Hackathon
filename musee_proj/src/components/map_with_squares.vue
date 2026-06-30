@@ -4,6 +4,7 @@ import mapTest from '../../public/map_test5.svg'
 import squareK from '../assets/squareK.svg'
 
 
+
 const count = ref(0)
 const zoom = ref(1)
 
@@ -34,9 +35,16 @@ const handleSquareClick = (squareId) => {
   selectedSquare.value = selectedSquare.value === squareId ? null : squareId
   console.log('Square clicked:', squareId)
 }
-</script>   
-
+</script>
 <template>
+  <div class="home">
+    <h1>Bienvenue au Musée</h1>
+      <div class="navigation">
+        <router-link to="/salle-g" class="btn-salle">Visiter la Salle 1</router-link>
+        <router-link to="/salle-h" class="btn-salle">Visiter la Salle 2</router-link>
+      </div>
+  </div>
+
   <section id="center">
     <div class="container" @wheel="handleWheel">
       <div class="map-wrapper" :style="{ transform: `scale(${zoom})`, transformOrigin: 'top left' }">

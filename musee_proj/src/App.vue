@@ -1,10 +1,9 @@
-<script setup>
-import MapWithSquares from './components/map_with_squares.vue'
-</script>
-
 <template>
-  <MapWithSquares />
+  <router-view />
 </template>
+
+<script setup>
+</script>
 
 <style>
 /* Reset CSS de base si nécessaire */

@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-import planSalle from '@/assets/plans/salleh.svg'
+import planSalle from '@/assets/plans/salleo.svg'
 import pinMap from '@/assets/pin_map.svg'
 import pinMapBlue from '@/assets/pin_map_blue.svg'
 
@@ -31,7 +31,7 @@ const handlePinClick = (pinId) => {
   <section class="salle-root">
     <div class="phone-frame" @wheel="handleWheel">
       <div class="map-wrapper" :style="{ transform: `scale(${zoom})`, transformOrigin: 'top left' }">
-        <img :src="planSalle" class="base" alt="Plan de Salle H" />
+        <img :src="planSalle" class="base" alt="Plan de Salle O" />
 
         <button
           v-for="pin in pins"
@@ -103,7 +103,6 @@ const handlePinClick = (pinId) => {
   height: 100%;
   object-fit: contain;
 }
-
 
 .btn-retour {
   position: absolute;
