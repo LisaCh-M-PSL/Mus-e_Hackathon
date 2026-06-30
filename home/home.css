@@ -114,8 +114,6 @@ h3{
   color : white;
 }
 
-<<<<<<< HEAD:accueil/intro.css
-=======
 .Photo {
   position: relative;
   transition: opacity 0.3s ease;
@@ -123,12 +121,9 @@ h3{
 .credit {
     opacity: 0;
     text-align: center;
-    /*position: relative; 
-    display: inline-block;*/
     position: absolute; 
     top: 50%; 
     left: 50%; 
-    transform: translate(-70%, -100%);
+    transform: translate(-50%, -50%);
     transition: opacity 0.3s ease;
 }
->>>>>>> 9c16676af592acf96b068518b4fc73cfae9e80d9:home/home.css
