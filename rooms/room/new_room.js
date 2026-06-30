@@ -8,6 +8,10 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("room_name").innerText = `Salle ${lettreSalle}`
     document.title = `Salle ${lettreSalle}`
 
+    document.getElementById("back").addEventListener('click',()=>{
+        window.location.href = "/rooms/rooms.html";
+    })
+    
     fetch('./data.json')
         .then(res => res.json())
         .then(data => {
@@ -24,8 +28,6 @@ document.addEventListener("DOMContentLoaded", () => {
             newbox.setAttribute("data-desc", mineral.desc)
             newbox.setAttribute("data-legende", mineral.legende)
             newbox.innerHTML= `
-            
-
             <img src="./images/${mineral.photo}" alt="photo de ${mineral.nom}" />
             <div>${mineral.nom}</div>
             `

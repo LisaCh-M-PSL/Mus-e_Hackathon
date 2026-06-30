@@ -23,6 +23,22 @@ body{
     padding: 10px;
 }
 
+#back{
+    display : flex ;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: var(--white);
+    border: 1px solid var(--blue);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
 #welcome{
     font-size : 36px ;
 }
