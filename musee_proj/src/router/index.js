@@ -13,11 +13,26 @@ const routes = [
     name: 'SalleG',
     component: () => import('../views/SalleG.vue')
   },
+  {
+    path: '/salle-h',
+    name: 'SalleH',
+    component: () => import('../views/SalleH.vue')
+  },
+  {
+    path: '/salle-i',
+    name: 'SalleI',
+    component: () => import('../views/SalleI.vue')
+  },
+  {
+    path: '/preview-salles',
+    name: 'PreviewSalles',
+    component: () => import('../views/PreviewSalles.vue')
+  },
   // Ajoutez autant de salles que nécessaire
 ]
 
 const router = createRouter({
-  history: createWebHistory(), // Attention: pour GitHub Pages, il faudra ajouter la 'base' ici aussi si besoin
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes
 })
 
