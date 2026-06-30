@@ -51,6 +51,22 @@ h1 {
     margin: auto;
 }
 
+#Facebook {
+    width: 4%;
+}
+
+#Twitter{
+    width: 4%;
+}
+
+#Linkedin {
+    width: 4%;
+}
+#Youtube {
+    width: 4.2%;
+}
+
+
 h2 {
     color: #005D97;
     font-family: Diamonds;
