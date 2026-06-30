@@ -5,6 +5,11 @@
       <li><router-link to="/salle-g">Salle G</router-link></li>
       <li><router-link to="/salle-h">Salle H</router-link></li>
       <li><router-link to="/salle-i">Salle I</router-link></li>
+      <li><router-link to="/salle-k">Salle K</router-link></li>
+      <li><router-link to="/salle-l">Salle L</router-link></li>
+      <li><router-link to="/salle-m">Salle M</router-link></li>
+      <li><router-link to="/salle-n">Salle N</router-link></li>
+      <li><router-link to="/salle-o">Salle O</router-link></li>
     </ul>
     <router-link to="/" class="btn-retour">Retour à la carte principale</router-link>
   </div>
