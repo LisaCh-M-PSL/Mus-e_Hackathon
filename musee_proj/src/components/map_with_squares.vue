@@ -18,7 +18,7 @@ const handleWheel = (e) => {
 
 // 5 squares avec leurs positions 
 const squares = ref([
-  { id: 1, x: 20, y: 25, name: 'Point 1' },
+  { id: 1, x: 10, y: 40, name: 'Point 1' },
   { id: 2, x: 50, y: 30, name: 'Point 2' },
   { id: 3, x: 70, y: 55, name: 'Point 3' },
   { id: 4, x: 35, y: 70, name: 'Point 4' },
@@ -44,7 +44,7 @@ const handleSquareClick = (squareId) => {
           :key="squareItem.id"
           class="square"
           :class="{ active: selectedSquare === squareItem.id }"
-          :style="{ left: squareItem.x + '%', top: squareItem.y + '%', transform: `translate(-50%, -50%) scale(${selectedSquare === squareItem.id ? 1.3/zoom : 1/zoom})` }"
+          :style="{ left: squareItem.x + '%', top: squareItem.y + '%'}"
           :title="squareItem.name"
           @click="handleSquareClick(squareItem.id)"
         >
