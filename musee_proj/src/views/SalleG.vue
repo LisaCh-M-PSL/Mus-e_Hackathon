@@ -4,6 +4,7 @@ import planSalleG from '@/assets/plans/salleg.svg'
 import pinMap from '@/assets/pin_map.svg'
 import pinMapBlue from '@/assets/pin_map_blue.svg'
 
+import retour from '@/assets/retour.svg'
 const zoom = ref(1)
 const pins = ref([
   { id: 1, x: 20, y: 25, name: 'Point 1' },
@@ -45,8 +46,10 @@ const handlePinClick = (pinId) => {
           <img :src="selectedPin === pin.id ? pinMapBlue : pinMap" :alt="pin.name" />
         </button>
       </div>
-    </div>
-  </section>
+        <router-link to="/preview-salles" class="btn-retour">
+      <img :src="retour" alt="Retour" />
+    </router-link>
+</div></section>
 </template>
 
 <style scoped>
@@ -99,4 +102,27 @@ const handlePinClick = (pinId) => {
   object-fit: contain;
 }
 
+
+.btn-retour {
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  background: white;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.16);
+  text-decoration: none;
+  padding: 0;
+  z-index: 20;
+}
+
+.btn-retour img {
+  width: 22px;
+  height: 22px;
+  display: block;
+}
 </style>
