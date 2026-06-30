@@ -46,7 +46,7 @@ const handlePinClick = (pinId) => {
           <img :src="selectedPin === pin.id ? pinMapBlue : pinMap" :alt="pin.name" />
         </button>
       </div>
-        <router-link to="/preview-salles" class="btn-retour">
+        <router-link to="/" class="btn-retour">
       <img :src="retour" alt="Retour" />
     </router-link>
 </div></section>

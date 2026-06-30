@@ -1,12 +1,22 @@
 <script setup>
 import { ref } from 'vue'
+import { useRouter } from 'vue-router'
 import mapTest from '../../public/map_test5.svg'
 import squareK from '../assets/squareK.svg'
 
-
-
 const count = ref(0)
 const zoom = ref(1)
+const router = useRouter()
+const squareRoutes = {
+  1: '/salle-g',
+  2: '/salle-h',
+  3: '/salle-i',
+  4: '/salle-k',
+  5: '/salle-l',
+  6: '/salle-m',
+  7: '/salle-n',
+  8: '/salle-o'
+}
 
 // Gestion du zoom
 const handleWheel = (e) => {
@@ -33,7 +43,10 @@ const selectedSquare = ref(null)
 
 const handleSquareClick = (squareId) => {
   selectedSquare.value = selectedSquare.value === squareId ? null : squareId
-  console.log('Square clicked:', squareId)
+  const target = squareRoutes[squareId]
+  if (target) {
+    router.push(target)
+  }
 }
 </script>
 <template>
@@ -59,7 +72,7 @@ const handleSquareClick = (squareId) => {
           :title="squareItem.name"
           @click="handleSquareClick(squareItem.id)"
         >
-          <img :src="selectedSquare === squareItem.id ? squareKActive : squareK" :alt="squareItem.name" />
+          <img :src="squareK" :alt="squareItem.name" />
         </button>
       </div>
     </div>
