@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   console.log(`body has ${document.body.childElementCount} children`);
   let blurimage = (image) =>{
-    image.style.opacity = "0.7";
+    image.style.opacity = "0.4";
   }
   let add_credit = (txt) =>{
     txt.style.opacity = 1;
