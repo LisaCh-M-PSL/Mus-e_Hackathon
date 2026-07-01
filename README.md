@@ -1,4 +1,8 @@
-# Mus-e_Hackathon
+# Musée Hackathon
+
+# Indiquer comment utiliser le code. (voir feuille langues de départ)
+
+
 
 ### Objectif du projet
 Le Musée souhaite travailler avec les élèves des mines afin de proposer aux visiteurs une première version d’une application avec audio-guide, téléchargeable sur leurs portables.
@@ -29,7 +33,7 @@ pour aller plus loin, les élèves peuvent proposer chatbox qui répond aux ques
 
 L’UX (user experience) souhaitée pour l’application :
 
-- Application mobile, téléchargeable sur iOS/Android ou un appli Web sur mobile
+- Application mobile, téléchargeable sur iOS/Android ou une appli Web sur mobile
 
 - Choix de basculer entre le français et l’anglais
 
