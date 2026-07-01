@@ -3,11 +3,11 @@ body{
   margin : 0;
   padding : 0;
   padding-bottom : 25%;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1 {
     color: rgb(255,255,255);
-    font-family: Diamonds;
     font-size: 3em;
 }
 
@@ -54,13 +54,11 @@ h1 {
 
 h2 {
     color: #005D97;
-    font-family: Diamonds;
     font-size: 48px;
     text-align: center;
 }
 h3{
     color: rgb(0,0,0);
-    font-family: Diamonds;
     font-size: 40px;
     text-align: justify;
     text-justify: auto;
