@@ -49,11 +49,13 @@ document.addEventListener("DOMContentLoaded", () => {
             const newbox = document.createElement("section");
             newbox.classList.add("mineral") ;
             newbox.setAttribute("data-nom", mineral.nom)
-            newbox.setAttribute("data-audio", mineral.audio)
+            newbox.setAttribute("data-audio", `./audio/${mineral.audio}`)
             newbox.setAttribute("data-desc", mineral.desc)
             newbox.setAttribute("data-legende", mineral.legende)
+            newbox.setAttribute("data-legende1", mineral.legende1)
+            newbox.setAttribute("data-photo", mineral.photo)
             newbox.innerHTML= `
-            <img src="./images/${mineral.photo}" alt="photo de ${mineral.nom}" />
+            <img src="./images/${mineral.tableau}" alt="photo de ${mineral.nom}" />
             <div>${mineral.nom}</div>
             `
             grid.appendChild(newbox);
@@ -69,25 +71,52 @@ const modalImg = document.getElementById('modal-img');
 const modalAudio = document.getElementById('modal-audio');
 const modalDesc = document.getElementById('modal-desc');
 const modalLegende = document.getElementById('modal-legende'); 
+const leftphotobtn = document.getElementById('prev-btn'); 
+const rightphotobtn = document.getElementById('next-btn');
+
 
 document.querySelectorAll('.mineral').forEach(mineral => {
     mineral.addEventListener('click', () => {
         const nom = mineral.getAttribute('data-nom');
         const desc = mineral.getAttribute('data-desc');
         const audioSrc = mineral.getAttribute('data-audio');
-        const imgSrc = mineral.querySelector('img').src;
+        const tableauSrc = mineral.querySelector('img').src;
         const legende = mineral.getAttribute('data-legende');
+        const legende1 = mineral.getAttribute('data-legende1');
+        const phothoSrc = `./images/${mineral.getAttribute('data-photo')}`;
+
 
         modalTitle.textContent = nom;
         modalDesc.textContent = desc;
-        modalImg.src = imgSrc;
+        modalImg.src = tableauSrc;
         modalAudio.src = audioSrc;
         modalLegende.textContent = legende;
+
+        leftphotobtn.style.display = "none" ;
+        rightphotobtn.style.display = "block" ;
+        
+
+        leftphotobtn.addEventListener('click', () => {
+            modalImg.src = tableauSrc ;
+            modalLegende.textContent = legende;
+            leftphotobtn.style.display = "none" ;
+            rightphotobtn.style.display = "block" ;
+        })
+
+        rightphotobtn.addEventListener('click', () => {
+            modalImg.src = phothoSrc ;
+            modalLegende.textContent = legende1;
+            rightphotobtn.style.display = "none" ;
+            leftphotobtn.style.display = "block" ;
+        })
 
         modal.showModal();
         modalAudio.play();
     });
 });
+
+
+
 
 closeModalBtn.addEventListener('click', () => {
     modal.close();
