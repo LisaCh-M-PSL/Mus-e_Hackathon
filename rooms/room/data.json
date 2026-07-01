@@ -56,8 +56,8 @@
         "tableau": "sphalerite.jpg",
         "audio": "sphalerite.mp3",
         "legende": "Georges Seurat, Un dimanche apr\u00e8s-midi sur l'\u00eele de la Grande Jatte (1884-86). Huile sur toile, 208x308cm, Art Institute, Chicago",
-        "photo": "spharelite.png",
-        "legende1": "Sphar\u00e9lite, Schemnitz,Banska Stiavnica, Banska Bystrica, Slovaquie 258"
+        "photo": "sphalerite.png",
+        "legende1": "Sphal\u00e9rite, Schemnitz,Banska Stiavnica, Banska Bystrica, Slovaquie 258"
     },
     {
         "salle": "H",
@@ -106,7 +106,7 @@
         "tableau": "orpiment.jpg",
         "audio": "orpiment.mp3",
         "legende": "Raban Maur Liber de laudibus Sanctae Crusis vers 814",
-        "photo": " orpiment.png",
+        "photo": "orpiment.png",
         "legende1": " Orpiment,Mine Getchell, Humbolt Co.,Nevada USA 16079"
     },
     {
@@ -146,7 +146,7 @@
         "tableau": "hematite.jpg",
         "audio": "hematite.mp3",
         "legende": "Main n\u00e9gative Pal\u00e9olithique Pech Merle Lot",
-        "photo": " hematite.png",
+        "photo": "hematite.png",
         "legende1": "H\u00e9matite, Ile d'Elbe, Toscane, Italie Don Gallois 979"
     },
     {
