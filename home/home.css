@@ -127,3 +127,28 @@ h3{
     font-size: 2em;
 }
 
+.language{
+  display: grid;
+  gap: .4rem;
+  grid-template-columns: repeat(4, 5fr);
+  margin-left: 5%;
+  position: relative;
+  text-align: center;
+  align-items: center;
+}
+
+a.buttonlanguage{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none; 
+  padding: 1%;
+  
+  font-size: 200%;
+  font-weight: bold;
+  color: var(--blue);
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+  text-justify: auto;
+}
