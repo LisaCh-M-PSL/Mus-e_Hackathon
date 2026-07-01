@@ -4,9 +4,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const urlParams = new URLSearchParams(window.location.search);
     const lettreSalle = urlParams.get('salle');
-
-    document.getElementById("room_name").innerText = `Salle ${lettreSalle}`
-    document.title = `Salle ${lettreSalle}`
+    if(LANGU=="fr"){
+        document.getElementById("room_name").innerText = `Salle ${lettreSalle}`
+        document.title = `Salle ${lettreSalle}`
+    }
+    else if(LANGU=="en"){
+        document.getElementById("room_name").innerText = `Room ${lettreSalle}`
+        document.title = `Room ${lettreSalle}`
+    }
+    
 
     const dict = {"G":["","H"], "H":["G","I"], "I":["H","K"], "K":["I","L"], "L":["K","M"], "M":["L","N"], "N":["M","O"], "O":["N",""]}
     const change = document.getElementById("change")
@@ -14,30 +20,57 @@ document.addEventListener("DOMContentLoaded", () => {
         const previous = document.createElement("section");
         previous.classList.add("mineral") ;
         previous.id = "previous"
-        previous.innerText= `Vers salle ${dict[lettreSalle][0]}          `
+        if (LANGU == "fr"){
+            previous.innerText= `Vers salle ${dict[lettreSalle][0]}`
+            previous.addEventListener('click', ()=>{
+                window.location.href=`/rooms/room/room.html?salle=${dict[lettreSalle][0]}`
+            })
+        }
+        else if(LANGU == "en"){
+            previous.innerText= `Go to room ${dict[lettreSalle][0]}`
+            previous.addEventListener('click', ()=>{
+                window.location.href=`/rooms/room/room_e.html?salle=${dict[lettreSalle][0]}`
+            })
+        }
         change.appendChild(previous);
-        document.getElementById("previous").addEventListener('click', ()=>{
-            window.location.href=`/rooms/room/room.html?salle=${dict[lettreSalle][0]}`
-        })
     }
 
     if (lettreSalle!="O"){
         const next = document.createElement("section");
         next.classList.add("mineral") ;
         next.id = "next"
-        next.innerText= `Vers salle ${dict[lettreSalle][1]}          `
+        if(LANGU == "fr"){
+            next.innerText= `Vers salle ${dict[lettreSalle][1]}`
+            next.addEventListener('click', ()=>{
+                window.location.href=`/rooms/room/room.html?salle=${dict[lettreSalle][1]}`
+            })
+        }
+        else if(LANGU == "en"){
+            next.innerText= `Go to room ${dict[lettreSalle][1]}`
+            next.addEventListener('click', ()=>{
+                window.location.href=`/rooms/room/room_e.html?salle=${dict[lettreSalle][1]}`
+            })
+        }
         change.appendChild(next);
-        document.getElementById("next").addEventListener('click', ()=>{
-            window.location.href=`/rooms/room/room.html?salle=${dict[lettreSalle][1]}`
-        })
+        
     }
 
 
     document.getElementById("back").addEventListener('click',()=>{
-        window.location.href = "/rooms/rooms.html";
+        if(LANGU=="fr"){
+            window.location.href = "/rooms/rooms.html";
+        }
+        else if(LANGU=="en"){
+            window.location.href = "/rooms/rooms_e.html";
+        }
     })
     
-    fetch('./data.json')
+    var data_csv = './data.json'
+    if(LANGU=="en"){
+        data_csv = './data_e.json'
+    }
+
+    fetch(data_csv)
         .then(res => res.json())
         .then(data => {
             console.log(data);
@@ -126,10 +159,6 @@ modal.addEventListener('close', () => {
     modalAudio.pause();
     modalAudio.currentTime = 0;
 });
-
-
-
-
 
     })
 })

@@ -46,6 +46,7 @@ body{
 
 #welcome{
     font-size : 25px ;
+    font-weight: bold;
 }
 #room_name{
     font-size : 35px ; 
