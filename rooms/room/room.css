@@ -140,11 +140,48 @@ dialog::backdrop {
     font-weight: bold;
 }
 
+.carousel-container {
+    position: relative;
+    display: inline-block; /* S'ajuste à la taille de l'image */
+    max-width: 100%;
+    text-align: center;
+}
+
 #modal-img {
     width: 100%;
+    height: auto;
+    display: block;
     border-radius: 10px;
     margin-top: 15px;
 }
+
+
+.nav-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 50%; 
+    transition: background-color 0.3s ease;
+}
+
+.nav-arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#prev-btn {
+    left: 5px;
+}
+
+#next-btn {
+    right: 5px;
+}
+
 
 .audio-container {
     margin: 20px 0;
