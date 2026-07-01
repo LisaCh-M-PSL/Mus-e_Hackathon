@@ -4,12 +4,8 @@ body{
   padding :0;
   padding-bottom: 25%;
   font-family: 'Poppins', sans-serif;
-  overflow-x: hidden;
 }
 
-* {
-  box-sizing: border-box;
-}
 
 h1 {
     color: rgb(255,255,255);
@@ -70,17 +66,6 @@ h1 {
   div.app-header.img { width: 20%; height: 25%; }
   div.app-header.h1 { font-size: 80%;}
   #logoPSL {width: 20%; height: 50%; }
-
-  .reseaux-sociaux,
-  .language {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    margin: 1rem;
-  }
-
-  a.buttonlanguage {
-    font-size: 1.1rem;
-    padding: 0.8rem;
-  }
 }
 
 #Photomusee {
@@ -92,8 +77,8 @@ h1 {
 .reseaux-sociaux{
   display: grid;
   gap: .4rem;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  margin: 1rem 5%;
+  grid-template-columns: repeat(4, 5fr);
+  margin-left: 5%;
   position: relative;
   text-align: center;
   align-items: center;
@@ -117,8 +102,8 @@ h1 {
 .language{
   display: grid;
   gap: .4rem;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  margin: 1rem 5%;
+  grid-template-columns: repeat(4, 5fr);
+  margin-left: 5%;
   position: relative;
   text-align: center;
   align-items: center;
@@ -239,21 +224,23 @@ a{
 }
 
 div.language{
-  margin: 1rem 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1%;
 }
 
 a.buttonlanguage{
   background-color: rgba(255, 255, 255, 0.5);
   border: none; 
   padding: 1%;
-  display: block;
+  
   font-size: 200%;
   font-weight: bold;
   color: var(--blue);
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
   width: 100%;
-  box-sizing: border-box;
   text-decoration: none;
   text-align: center;
   text-justify: auto;
