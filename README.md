@@ -1,4 +1,22 @@
-# Mus-e_Hackathon
+# Musée Hackathon
+
+# Manuel utilisateur.
+Le projet consiste à coder une webapp audioguide pour le musée de minéralogie de l'école des Mines de Paris. L'audioguide créé présente le parcours "pigments" du musée.
+
+Le projet est codé en html, JavaScript, CSS et Python. 
+
+L'application comporte 5 sections distinctes :
+- Accueil : Présentation du musée de minéralogie
+- Plan : Plan intéractif du musée. Cliquer sur une des salle permet d'avoir son plan , sur lequel on retrouve des pins placés sur la localisation des minéraux du parcours. En clquant sur le pin, on accède à l'audioguide du minéral.
+- Salles : Liste des salles du musée. En choisissant une salle, on obtient la liste des audios proposés dans celle-ci. En cliquant sur un minéral, on obtient sa page, avec sa photo et celle de l'oeuvre associée, son audio et le texte associé.
+- Qr-code : Cette section permet de scanner les QR-codes présents au sein du musée, et renvoit vers les pages web associées.
+- Infos : Cette section présente les informations pratiques du musée (horaires, tarifs, accès, contact, réseaux sociaux). Elle permet également de changer la langue de l'application.
+
+Ces 5 sections sont reliées entre elles par un menu présent sous forme de bandeau en pied de page.
+
+Afin d'ouvrir l'application, on doit utiliser un serveur local avec vite, en raison des blocages des navigateurs qui empêchent l'ouverture du fichier json utilisé par la section salle.
+
+
 
 ### Objectif du projet
 Le Musée souhaite travailler avec les élèves des mines afin de proposer aux visiteurs une première version d’une application avec audio-guide, téléchargeable sur leurs portables.
@@ -29,7 +47,7 @@ pour aller plus loin, les élèves peuvent proposer chatbox qui répond aux ques
 
 L’UX (user experience) souhaitée pour l’application :
 
-- Application mobile, téléchargeable sur iOS/Android ou un appli Web sur mobile
+- Application mobile, téléchargeable sur iOS/Android ou une appli Web sur mobile
 
 - Choix de basculer entre le français et l’anglais
 
