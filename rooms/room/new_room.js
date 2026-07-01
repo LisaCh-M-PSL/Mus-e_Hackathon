@@ -83,7 +83,8 @@ document.querySelectorAll('.mineral').forEach(mineral => {
         const tableauSrc = mineral.querySelector('img').src;
         const legende = mineral.getAttribute('data-legende');
         const legende1 = mineral.getAttribute('data-legende1');
-        const phothoSrc = mineral.getAttribute('data-photo');
+        const phothoSrc = `./images/${mineral.getAttribute('data-photo')}`;
+
 
         modalTitle.textContent = nom;
         modalDesc.textContent = desc;
@@ -92,6 +93,8 @@ document.querySelectorAll('.mineral').forEach(mineral => {
         modalLegende.textContent = legende;
 
         leftphotobtn.style.display = "none" ;
+        rightphotobtn.style.display = "block" ;
+        
 
         leftphotobtn.addEventListener('click', () => {
             modalImg.src = tableauSrc ;
