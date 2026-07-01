@@ -1,11 +1,16 @@
 <script setup>
-import { ref } from 'vue'
+import { onMounted, ref } from 'vue'
 import planSalleG from '@/assets/plans/salleg.svg'
 import pinMap from '@/assets/pin_map.svg'
 import pinMapBlue from '@/assets/pin_map_blue.svg'
 
 import retour from '@/assets/retour.svg'
 const zoom = ref(1)
+
+onMounted(() => {
+  zoom.value = 1
+})
+
 const pins = ref([
   { id: 1, x: 20, y: 25, name: 'Point 1' },
   { id: 2, x: 50, y: 30, name: 'Point 2' },

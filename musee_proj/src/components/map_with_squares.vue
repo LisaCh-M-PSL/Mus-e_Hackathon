@@ -1,143 +1,67 @@
 <script setup>
-import { ref } from 'vue'
-import { useRouter } from 'vue-router'
-import mapTest from '/map_test8.svg'
-import squareK from '../assets/squareK.svg'
-
-const count = ref(0)
-const zoom = ref(1)
-const router = useRouter()
-const squareRoutes = {
-  1: '/salle-g',
-  2: '/salle-h',
-  3: '/salle-i',
-  4: '/salle-k',
-  5: '/salle-l',
-  6: '/salle-m',
-  7: '/salle-n',
-  8: '/salle-o'
-}
-
-// Gestion du zoom
-const handleWheel = (e) => {
-  if (e.ctrlKey || e.metaKey) {
-    e.preventDefault()
-    const delta = e.deltaY > 0 ? -0.1 : 0.1
-    zoom.value = Math.max(1, Math.min(3, zoom.value + delta))
-  }
-}
-
-const squares = ref([
-  { id: 1, x: 52.8, y: 12.3, name: 'Point 1' },
-  { id: 2, x: 52.8, y: 19.6, name: 'Point 2' },
-  { id: 3, x: 52.8, y: 28.5, name: 'Point 3' },
-  { id: 4, x: 53.1, y: 53, name: 'Point 4' },
-  { id: 5, x: 53.1, y: 62, name: 'Point 5' },
-  { id: 6, x: 53.1, y: 69.4, name: 'Point 6' },
-  { id: 7, x: 53.1, y: 76.8, name: 'Point 7' },
-  { id: 8, x: 53.1, y: 86.6, name: 'Point 8' }
-])
-
-const selectedSquare = ref(null)
-
-const handleSquareClick = (squareId) => {
-  selectedSquare.value = selectedSquare.value === squareId ? null : squareId
-  const target = squareRoutes[squareId]
-  if (target) {
-    router.push(target)
-  }
-}
+const rooms = [
+  { id: 'g', to: '/salle-g', x: 1730, y: 600, width: 600, height: 330, stroke: '#ff0000' },
+  { id: 'h', to: '/salle-h', x: 1730, y: 980, width: 600, height: 330, stroke: '#00ff00' },
+  { id: 'i', to: '/salle-i', x: 1730, y: 1350, width: 600, height: 500, stroke: '#0000ff' },
+  { id: 'k', to: '/salle-k', x: 1770, y: 2550, width: 550, height: 490, stroke: '#ff00ff' },
+  { id: 'l', to: '/salle-l', x: 1770, y: 3070, width: 550, height: 350, stroke: '#00ffff' },
+  { id: 'm', to: '/salle-m', x: 1770, y: 3450, width: 550, height: 350, stroke: '#ffa500' },
+  { id: 'n', to: '/salle-n', x: 1770, y: 3820, width: 550, height: 350, stroke: '#800080' },
+  { id: 'o', to: '/salle-o', x: 1370, y: 4220, width: 950, height: 530, stroke: '#008000' }
+]
 </script>
+
 <template>
+  <section class="museum-map-page">
+    <div class="museum-map-container">
+      <svg viewBox="0 0 3508 4961" role="img" aria-label="Plan du musée">
+        <image href="/map_test8.svg" x="0" y="0" width="3508" height="4961" />
 
-  <section id="center">
-    <div class="container" @wheel="handleWheel">
-      <div class="map-wrapper" :style="{ transform: `scale(${zoom})`, transformOrigin: 'top left' }">
-        <img :src="mapTest" class="base" alt="Carte" />
-        <!-- Squares cliquables -->
-        <button
-          v-for="squareItem in squares"
-          :key="squareItem.id"
-          class="square"
-          :class="{ active: selectedSquare === squareItem.id }"
-          :style="{ left: squareItem.x + '%', top: squareItem.y + '%' }"
-          :title="squareItem.name"
-          @click="handleSquareClick(squareItem.id)"
-        >
-          <img :src="squareK" :alt="squareItem.name" />
-        </button>
-      </div>
+        <router-link v-for="room in rooms" :key="room.id" :to="room.to" class="map-hotspot">
+          <rect
+            :x="room.x"
+            :y="room.y"
+            :width="room.width"
+            :height="room.height"
+            fill="transparent"
+            :stroke="room.stroke"
+            stroke-width="8"
+          />
+        </router-link>
+      </svg>
     </div>
-    <div v-if="selectedSquare" class="square-info">
-      <p>Square sélectionné: {{ squares.find(s => s.id === selectedSquare)?.name }}</p>
-    </div>
-
   </section>
-
-  
 </template>
 
-<style>
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 100%;
-  height: 100vh;
-  overflow: auto;
-  background-color: #f5f5f5;
-  margin: 0 auto;
+<style scoped>
+.museum-map-page {
+  min-height: 100vh;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 16px;
+  box-sizing: border-box;
 }
 
-.map-wrapper {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  display: inline-block;
+.museum-map-container {
+  width: min(100%, 1100px);
 }
 
-.base {
+svg {
   width: 100%;
-  height: 100%;
-  object-fit: contain;
+  height: auto;
   display: block;
 }
 
-.square {
-  position: absolute;
-  background: none;
-  border: none;
+.map-hotspot rect {
   cursor: pointer;
-  padding: 0;
-  width: 44px;
-  height: 56px;
-  transition: filter 0.2s;
-  z-index: 10;
+  transition: fill 0.2s ease, stroke-width 0.2s ease;
 }
 
-.square img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+.map-hotspot:hover rect {
+  fill: rgba(255, 0, 0, 0.12);
+  stroke-width: 10;
 }
-
-.square-info {
-  margin-top: 15px;
-  padding: 10px;
-  background-color: #f0f0f0;
-  border-left: 4px solid #ff6464;
-  font-weight: bold;
-}
-
-.photo {
-  position: absolute; /* Required for z-index to work here */
-  width: 200px;
-  height: auto;
-  transition: transform 0.3s;
-}
-
-
-/* Stacking order */
-.photo1 { top: 20px; left: 20px; z-index: 1; }
-.photo2 { top: 60px; left: 60px; z-index: 2; }
 </style>
 
