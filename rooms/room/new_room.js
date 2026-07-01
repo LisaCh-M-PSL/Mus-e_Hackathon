@@ -65,7 +65,12 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     })
     
-    fetch('./data.json')
+    var data_csv = './data.json'
+    if(LANGU=="en"){
+        data_csv = './data_e.json'
+    }
+
+    fetch(data_csv)
         .then(res => res.json())
         .then(data => {
             console.log(data);

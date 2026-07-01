@@ -2,7 +2,7 @@ import csv
 import json
 
 dico= []
-with open ('./rooms/room/data.csv', mode='r', encoding='utf-8') as file:
+with open ('./rooms/room/data_e.csv', mode='r', encoding='utf-8') as file:
     csv_reader = csv.reader(file, delimiter=';')
     for salle, nom, desc, tableau, audio,legende, photo, legende1 in csv_reader:
         dico.append({
@@ -17,5 +17,5 @@ with open ('./rooms/room/data.csv', mode='r', encoding='utf-8') as file:
         })
 
 print(dico)
-with open('./rooms/room/data.json', 'w', encoding='utf-8') as json_file:
+with open('./rooms/room/data_e.json', 'w', encoding='utf-8') as json_file:
     json.dump(dico, json_file, indent=4)
