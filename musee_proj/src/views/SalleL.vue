@@ -29,7 +29,7 @@ const handlePinClick = (pinId) => {
 
 <template>
   <section class="salle-root">
-    <div class="phone-frame" @wheel="handleWheel">
+    <div class="screen-content" @wheel="handleWheel">
       <h1 class="salle-title">Salle L</h1>
       <div class="map-wrapper" :style="{ transform: `scale(${zoom})`, transformOrigin: 'top left' }">
         <img :src="planSalle" class="base" alt="Plan de Salle L" />
@@ -63,14 +63,11 @@ const handlePinClick = (pinId) => {
   background: #111;
 }
 
-.phone-frame {
-  width: min(375px, 100vw);
-  height: min(667px, 100vh);
-  border: 16px solid #000;
-  border-radius: 32px;
+.screen-content {
+  width: 100%;
+  height: 100%;
   background: #fff6e3;
   overflow: hidden;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
   position: relative;
 }
 
@@ -129,7 +126,7 @@ const handlePinClick = (pinId) => {
   display: block;
 }
 
-.phone-frame .salle-title {
+.screen-content .salle-title {
   color: #6CC983;
   font-size: 1.8rem;
   font-weight: 700;

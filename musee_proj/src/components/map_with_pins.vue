@@ -1,6 +1,6 @@
 <script setup>
 import { ref } from 'vue'
-import mapTest from '../../public/map_test5.svg'
+import mapTest from '/map_test8.svg'
 import pin from '../assets/pin_map.svg'
 import pinBlue from '../assets/pin_map_blue.svg'
 

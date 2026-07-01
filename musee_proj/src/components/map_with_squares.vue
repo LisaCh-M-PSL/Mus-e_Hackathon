@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 import { useRouter } from 'vue-router'
-import mapTest from '../../public/map_test5.svg'
+import mapTest from '/map_test8.svg'
 import squareK from '../assets/squareK.svg'
 
 const count = ref(0)
@@ -27,16 +27,15 @@ const handleWheel = (e) => {
   }
 }
 
-// 5 squares avec leurs positions 
 const squares = ref([
-  { id: 1, x: 16.5, y: 43.7, name: 'Point 1' },
-  { id: 2, x: 23, y: 43.7, name: 'Point 2' },
-  { id: 3, x: 31.3, y: 43.7, name: 'Point 3' },
-  { id: 4, x: 53.7, y: 43.6, name: 'Point 4' },
-  { id: 5, x: 62, y: 43.6, name: 'Point 5' },
-  { id: 6, x: 68.9, y: 43.6, name: 'Point 6' },
-  { id: 7, x: 76, y: 43.6, name: 'Point 7' },
-  { id: 8, x: 85, y: 43.6, name: 'Point 8' }
+  { id: 1, x: 52.8, y: 12.3, name: 'Point 1' },
+  { id: 2, x: 52.8, y: 19.6, name: 'Point 2' },
+  { id: 3, x: 52.8, y: 28.5, name: 'Point 3' },
+  { id: 4, x: 53.1, y: 53, name: 'Point 4' },
+  { id: 5, x: 53.1, y: 62, name: 'Point 5' },
+  { id: 6, x: 53.1, y: 69.4, name: 'Point 6' },
+  { id: 7, x: 53.1, y: 76.8, name: 'Point 7' },
+  { id: 8, x: 53.1, y: 86.6, name: 'Point 8' }
 ])
 
 const selectedSquare = ref(null)
@@ -61,7 +60,7 @@ const handleSquareClick = (squareId) => {
           :key="squareItem.id"
           class="square"
           :class="{ active: selectedSquare === squareItem.id }"
-          :style="{ left: squareItem.x + '%', top: squareItem.y + '%'}"
+          :style="{ left: squareItem.x + '%', top: squareItem.y + '%' }"
           :title="squareItem.name"
           @click="handleSquareClick(squareItem.id)"
         >
@@ -81,18 +80,18 @@ const handleSquareClick = (squareId) => {
 <style>
 .container {
   position: relative;
-  width: 375px;
-  height: 667px;
-  border: 2px solid #333;
+  width: 100%;
+  max-width: 100%;
+  height: 100vh;
   overflow: auto;
   background-color: #f5f5f5;
-  margin: 20px auto;
+  margin: 0 auto;
 }
 
 .map-wrapper {
   position: relative;
-  width: 600px;
-  height: 800px;
+  width: 100%;
+  height: 100%;
   display: inline-block;
 }
 
@@ -109,8 +108,8 @@ const handleSquareClick = (squareId) => {
   border: none;
   cursor: pointer;
   padding: 0;
-  width: 30px;
-  height: 40px;
+  width: 44px;
+  height: 56px;
   transition: filter 0.2s;
   z-index: 10;
 }
