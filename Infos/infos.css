@@ -9,7 +9,7 @@ body{
 
 h1 {
     color: rgb(255,255,255);
-    font-size: 48px;
+    font-size: 200%;
 }
 
 .app-header {
@@ -17,7 +17,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 0rem;
   padding: 0.4rem 1rem;
   height: 90px;
   background: #005D97 ;
@@ -42,19 +42,32 @@ h1 {
   flex-shrink: 0;    
 }
 
+@media screen and (max-width: 600px) {
+  .app-header {
+    height: 200px;
+    padding: 0.6rem 1.2rem;
+  }
+  .app-header img {
+    width: 110px;
+  }
+  #logoPSL {
+    width: 90px;
+  }
+}
+
 
 /*@media screen and (max-width: 800px) {
   div.app-header.img { width: 20%; height: 25%; }
   div.app-header.h1 { font-size: 10px;}
   #logoPSL {width: 15%; height: 20%; }
+}*/
+
+@media screen and (max-width: 640px) {
+  div.app-header.img { width: 20%; height: 25%; }
+  div.app-header.h1 { font-size: 80%;}
+  #logoPSL {width: 20%; height: 50%; }
 }
 
-@media screen and (min-width: 800px) {
-  div.app-header.img { width: 20%; height: 25%; }
-  div.app-header.h1 { font-size: 100%;}
-  #logoPSL {width: 15%; height: 10%; }
-}
-*/
 #Photomusee {
     width: 90%;
     display: block;
