@@ -3,13 +3,13 @@ body{
   margin : 0;
   padding :0;
   padding-bottom: 25%;
+  font-family: 'Poppins', sans-serif;
 }
 
 
 h1 {
     color: rgb(255,255,255);
-    font-family: Diamonds;
-    font-size: 48px;
+    font-size: 3em;
 }
 
 .app-header {
@@ -46,6 +46,63 @@ h1 {
   div.app-header.h1 { font-size: 10px;}
   #logoPSL {width: 40px; height: 56px; }
 }
+
+/*
+.app-header {
+  border:none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0rem;
+  padding: 0.4rem 1rem;
+  height: 90px;
+  background: #005D97 ;
+  border-bottom-right-radius: 26px;
+  border-bottom-left-radius: 26px;
+}
+
+.app-header h1 {
+  flex: 1;          
+  text-align: center;
+  margin: 0;
+}
+
+.app-header img {
+  width: 90px;
+  height: auto;
+  flex-shrink: 0;    
+}
+#logoPSL {
+  width: 70px;
+  height: auto;
+  flex-shrink: 0;    
+}
+
+@media screen and (max-width: 600px) {
+  .app-header {
+    height: 200px;
+    padding: 0.6rem 1.2rem;
+  }
+  .app-header img {
+    width: 110px;
+  }
+  #logoPSL {
+    width: 90px;
+  }
+}
+
+
+/*@media screen and (max-width: 800px) {
+  div.app-header.img { width: 20%; height: 25%; }
+  div.app-header.h1 { font-size: 10px;}
+  #logoPSL {width: 15%; height: 20%; }
+}*/
+/*
+@media screen and (max-width: 640px) {
+  div.app-header.img { width: 20%; height: 25%; }
+  div.app-header.h1 { font-size: 80%;}
+  #logoPSL {width: 20%; height: 50%; }
+}*/
 
 #Photomusee {
     width: 90%;
@@ -91,13 +148,11 @@ h1 {
 
 h2 {
     color: #005D97;
-    font-family: Diamonds;
     font-size: 48px;
     text-align: center;
 }
 h3{
     color: rgb(0,0,0);
-    font-family: Diamonds;
     font-size: 30px;
     text-align: justify;
     text-justify: auto;
@@ -107,7 +162,6 @@ h4{
   font-style: normal;
   font-weight: normal;
   color: rgb(0,0,0);
-  font-family: Diamonds;
   font-size: 30px;
   text-align: justify;
   text-justify: auto;
@@ -192,14 +246,12 @@ h4{
 
 #TARIF{
   color: rgb(0,0,0);
-  font-family: Diamonds;
   font-size: 30px;
   text-align: justify;
   text-justify: auto;
   margin: 5%;
 }
 a{
-  font-family: Diamonds;
   font-size: 30px;
   text-align: justify;
   text-justify: auto;
